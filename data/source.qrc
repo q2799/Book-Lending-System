@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="data">
+    <file>登录.png</file>
+  </qresource>
+</RCC>
