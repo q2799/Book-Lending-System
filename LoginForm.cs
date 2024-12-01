@@ -18,6 +18,7 @@ namespace BookLendingSystem
 {
     public partial class LoginForm : Form
     {
+        public List<List<string>> information = new List<List<string>>() { new List<string>() };
         private MySqlConnection dbConnection; // 数据库连接
         private Form mainWindow; // 系统窗口
         private string name; // 用户名
@@ -71,13 +72,13 @@ namespace BookLendingSystem
             if (isStaff == 1)
             {
                 loginFlag = SelectStaffId(name, password);
-                if (loginFlag == 2) // Admin
+                if (loginFlag == 2) // 管理员
                 {
-                    mainWindow = new AdministratorForm(); // Assuming this is your admin window
+                    mainWindow = new AdministratorForm();
                 }
-                else if (loginFlag == 1) // Staff
+                else if (loginFlag == 1) // 职员
                 {
-                    mainWindow = new StaffForm(); // Assuming this is your staff window
+                    mainWindow = new StaffForm();
                 }
                 else
                 {
@@ -90,7 +91,7 @@ namespace BookLendingSystem
                 loginFlag = SelectUserId(name, password);
                 if (loginFlag == 1)
                 {
-                    mainWindow = new UserForm(); // Assuming this is your user window
+                    mainWindow = new UserForm(this, this.information);
                 }
                 else
                 {
@@ -98,9 +99,19 @@ namespace BookLendingSystem
                     return;
                 }
             }
+            else
+            {
+                MessageBox.Show("未知的用户类型", "错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
 
             CloseDatabase();
             mainWindow.Show();
+
+            this.textBox1.Clear();
+            this.textBox2.Clear();
+            radioButton1.Checked = false;
+            radioButton2.Checked = false;
             this.Hide();
         }
 
@@ -119,10 +130,18 @@ namespace BookLendingSystem
                         int isAdmin = reader.GetInt32(7);
                         if (isAdmin == 1)
                         {
+                            for (int i = 0; i < reader.FieldCount; i++)
+                            {
+                                this.information[0].Add(reader[i].ToString()); // 记录查询到的用户信息
+                            }
                             return 2;
                         }
                         else if (isAdmin == 0)
                         {
+                            for (int i = 0; i < reader.FieldCount; i++)
+                            {
+                                this.information[0].Add(reader[i].ToString()); // 记录查询到的用户信息
+                            }
                             return 1;
                         }
                     }
@@ -143,6 +162,10 @@ namespace BookLendingSystem
                 {
                     if (reader.Read())
                     {
+                        for (int i = 0; i < reader.FieldCount; i++)
+                        {
+                            this.information[0].Add(reader[i].ToString()); // 记录查询到的用户信息
+                        }
                         return 1;
                     }
                 }

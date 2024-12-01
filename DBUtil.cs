@@ -7,12 +7,12 @@ namespace BookLendingSystem.tool
     public class DBUtil
     {
         // 数据库连接对象
-        private static MySqlConnection db = null;
+        public static MySqlConnection db = null;
+        public static string database = null;
         private static string host = null;
         private static string port = null;
         private static string user = null;
         private static string password = null;
-        private static string database = null;
         private static string filePath = @"../../db.config.txt";
 
         // 静态方法，用于从文件导入配置

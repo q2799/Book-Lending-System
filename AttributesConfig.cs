@@ -36,7 +36,7 @@
         public static readonly string Author = "作者";
         public static readonly string Publisher = "出版单位";
         public static readonly string PublicationDate = "出版时间";
-        public static readonly string Price = "价格";
+        public static readonly string Price = "价格（元）";
         public static readonly string Borrowed = "借阅状态";
     }
 

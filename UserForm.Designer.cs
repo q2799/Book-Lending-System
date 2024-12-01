@@ -53,52 +53,53 @@
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.dataGridViewTextBoxColumn50 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn49 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn48 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn47 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn46 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn45 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn44 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn43 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn42 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn41 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.dataGridViewTextBoxColumn40 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn39 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn38 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn37 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn36 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn35 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn34 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn33 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tabControl1 = new System.Windows.Forms.TabControl();
             this.dataGridView3 = new System.Windows.Forms.DataGridView();
-            this.dataGridViewTextBoxColumn9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn14 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn15 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn16 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.button3 = new System.Windows.Forms.Button();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.Column2_1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2_2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2_3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2_4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2_5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2_6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2_7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2_8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2_9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2_10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.button2 = new System.Windows.Forms.Button();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.Column1_1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column1_2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column1_3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column1_4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column1_5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column1_6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column1_7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column1_8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.button1 = new System.Windows.Forms.Button();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.Column3_1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3_2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3_3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3_4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3_5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3_6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3_7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3_8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3_9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.menuStrip1.SuspendLayout();
             this.tabPage3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
             this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.tabControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -129,19 +130,19 @@
             this.toolStripMenuItem1_1_1,
             this.toolStripMenuItem1_1_2});
             this.toolStripMenuItem1_1.Name = "toolStripMenuItem1_1";
-            this.toolStripMenuItem1_1.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem1_1.Size = new System.Drawing.Size(148, 22);
             this.toolStripMenuItem1_1.Text = "图书信息";
             // 
             // toolStripMenuItem1_1_1
             // 
             this.toolStripMenuItem1_1_1.Name = "toolStripMenuItem1_1_1";
-            this.toolStripMenuItem1_1_1.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem1_1_1.Size = new System.Drawing.Size(148, 22);
             this.toolStripMenuItem1_1_1.Text = "显示图书信息";
             // 
             // toolStripMenuItem1_1_2
             // 
             this.toolStripMenuItem1_1_2.Name = "toolStripMenuItem1_1_2";
-            this.toolStripMenuItem1_1_2.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem1_1_2.Size = new System.Drawing.Size(148, 22);
             this.toolStripMenuItem1_1_2.Text = "查询图书信息";
             // 
             // toolStripMenuItem1_2
@@ -150,37 +151,37 @@
             this.toolStripMenuItem1_2_1,
             this.toolStripMenuItem1_2_2});
             this.toolStripMenuItem1_2.Name = "toolStripMenuItem1_2";
-            this.toolStripMenuItem1_2.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem1_2.Size = new System.Drawing.Size(148, 22);
             this.toolStripMenuItem1_2.Text = "借阅信息";
             // 
             // toolStripMenuItem1_2_1
             // 
             this.toolStripMenuItem1_2_1.Name = "toolStripMenuItem1_2_1";
-            this.toolStripMenuItem1_2_1.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem1_2_1.Size = new System.Drawing.Size(148, 22);
             this.toolStripMenuItem1_2_1.Text = "显示借阅信息";
             // 
             // toolStripMenuItem1_2_2
             // 
             this.toolStripMenuItem1_2_2.Name = "toolStripMenuItem1_2_2";
-            this.toolStripMenuItem1_2_2.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem1_2_2.Size = new System.Drawing.Size(148, 22);
             this.toolStripMenuItem1_2_2.Text = "查询借阅信息";
             // 
             // toolStripMenuItem1_3
             // 
             this.toolStripMenuItem1_3.Name = "toolStripMenuItem1_3";
-            this.toolStripMenuItem1_3.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem1_3.Size = new System.Drawing.Size(148, 22);
             this.toolStripMenuItem1_3.Text = "显示所有信息";
             // 
             // toolStripMenuItem1_4
             // 
             this.toolStripMenuItem1_4.Name = "toolStripMenuItem1_4";
-            this.toolStripMenuItem1_4.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem1_4.Size = new System.Drawing.Size(148, 22);
             this.toolStripMenuItem1_4.Text = "重新登录";
             // 
             // toolStripMenuItem1_5
             // 
             this.toolStripMenuItem1_5.Name = "toolStripMenuItem1_5";
-            this.toolStripMenuItem1_5.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem1_5.Size = new System.Drawing.Size(148, 22);
             this.toolStripMenuItem1_5.Text = "退出";
             // 
             // Column9
@@ -271,8 +272,51 @@
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage3.Size = new System.Drawing.Size(1048, 396);
             this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "tabPage3";
+            this.tabPage3.Text = "个人信息";
             this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView3
+            // 
+            this.dataGridView3.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
+            this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView3.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column3_1,
+            this.Column3_2,
+            this.Column3_3,
+            this.Column3_4,
+            this.Column3_5,
+            this.Column3_6,
+            this.Column3_7,
+            this.Column3_8,
+            this.Column3_9});
+            this.dataGridView3.Location = new System.Drawing.Point(2, 0);
+            this.dataGridView3.Name = "dataGridView3";
+            this.dataGridView3.ReadOnly = true;
+            this.dataGridView3.RowTemplate.Height = 23;
+            this.dataGridView3.Size = new System.Drawing.Size(1043, 58);
+            this.dataGridView3.TabIndex = 8;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(592, 97);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.TabIndex = 7;
+            this.button3.Text = "确定";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // comboBox3
+            // 
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Items.AddRange(new object[] {
+            "显示个人信息",
+            "更新个人信息"});
+            this.comboBox3.Location = new System.Drawing.Point(397, 99);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(121, 20);
+            this.comboBox3.TabIndex = 6;
+            this.comboBox3.Text = "显示个人信息";
             // 
             // tabPage2
             // 
@@ -284,8 +328,100 @@
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage2.Size = new System.Drawing.Size(1048, 396);
             this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "tabPage2";
+            this.tabPage2.Text = "借阅信息";
             this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView2
+            // 
+            this.dataGridView2.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
+            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column2_1,
+            this.Column2_2,
+            this.Column2_3,
+            this.Column2_4,
+            this.Column2_5,
+            this.Column2_6,
+            this.Column2_7,
+            this.Column2_8,
+            this.Column2_9,
+            this.Column2_10});
+            this.dataGridView2.Location = new System.Drawing.Point(2, 0);
+            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.ReadOnly = true;
+            this.dataGridView2.RowTemplate.Height = 23;
+            this.dataGridView2.Size = new System.Drawing.Size(1043, 342);
+            this.dataGridView2.TabIndex = 8;
+            // 
+            // Column2_1
+            // 
+            this.Column2_1.HeaderText = "借阅编号";
+            this.Column2_1.Name = "Column2_1";
+            this.Column2_1.ReadOnly = true;
+            // 
+            // Column2_2
+            // 
+            this.Column2_2.HeaderText = "职员编号";
+            this.Column2_2.Name = "Column2_2";
+            this.Column2_2.ReadOnly = true;
+            // 
+            // Column2_3
+            // 
+            this.Column2_3.HeaderText = "用户编号";
+            this.Column2_3.Name = "Column2_3";
+            this.Column2_3.ReadOnly = true;
+            // 
+            // Column2_4
+            // 
+            this.Column2_4.HeaderText = "图书编号";
+            this.Column2_4.Name = "Column2_4";
+            this.Column2_4.ReadOnly = true;
+            // 
+            // Column2_5
+            // 
+            this.Column2_5.HeaderText = "借阅时间";
+            this.Column2_5.Name = "Column2_5";
+            this.Column2_5.ReadOnly = true;
+            // 
+            // Column2_6
+            // 
+            this.Column2_6.HeaderText = "规定最迟归还时间";
+            this.Column2_6.Name = "Column2_6";
+            this.Column2_6.ReadOnly = true;
+            // 
+            // Column2_7
+            // 
+            this.Column2_7.HeaderText = "已借阅时间（日）";
+            this.Column2_7.Name = "Column2_7";
+            this.Column2_7.ReadOnly = true;
+            // 
+            // Column2_8
+            // 
+            this.Column2_8.HeaderText = "逾期状态";
+            this.Column2_8.Name = "Column2_8";
+            this.Column2_8.ReadOnly = true;
+            // 
+            // Column2_9
+            // 
+            this.Column2_9.HeaderText = "逾期时间（日）";
+            this.Column2_9.Name = "Column2_9";
+            this.Column2_9.ReadOnly = true;
+            // 
+            // Column2_10
+            // 
+            this.Column2_10.HeaderText = "逾期费用（元）";
+            this.Column2_10.Name = "Column2_10";
+            this.Column2_10.ReadOnly = true;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(592, 353);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 7;
+            this.button2.Text = "确定";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // comboBox2
             // 
@@ -299,96 +435,6 @@
             this.comboBox2.TabIndex = 6;
             this.comboBox2.Text = "显示借阅信息";
             // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(592, 353);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 7;
-            this.button2.Text = "确定";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // dataGridView2
-            // 
-            this.dataGridView2.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn41,
-            this.dataGridViewTextBoxColumn42,
-            this.dataGridViewTextBoxColumn43,
-            this.dataGridViewTextBoxColumn44,
-            this.dataGridViewTextBoxColumn45,
-            this.dataGridViewTextBoxColumn46,
-            this.dataGridViewTextBoxColumn47,
-            this.dataGridViewTextBoxColumn48,
-            this.dataGridViewTextBoxColumn49,
-            this.dataGridViewTextBoxColumn50});
-            this.dataGridView2.Location = new System.Drawing.Point(2, 0);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.RowTemplate.Height = 23;
-            this.dataGridView2.Size = new System.Drawing.Size(1043, 342);
-            this.dataGridView2.TabIndex = 8;
-            // 
-            // dataGridViewTextBoxColumn50
-            // 
-            this.dataGridViewTextBoxColumn50.HeaderText = "逾期费用（元）";
-            this.dataGridViewTextBoxColumn50.Name = "dataGridViewTextBoxColumn50";
-            this.dataGridViewTextBoxColumn50.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn49
-            // 
-            this.dataGridViewTextBoxColumn49.HeaderText = "逾期时间（日）";
-            this.dataGridViewTextBoxColumn49.Name = "dataGridViewTextBoxColumn49";
-            this.dataGridViewTextBoxColumn49.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn48
-            // 
-            this.dataGridViewTextBoxColumn48.HeaderText = "逾期状态";
-            this.dataGridViewTextBoxColumn48.Name = "dataGridViewTextBoxColumn48";
-            this.dataGridViewTextBoxColumn48.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn47
-            // 
-            this.dataGridViewTextBoxColumn47.HeaderText = "已借阅时间（日）";
-            this.dataGridViewTextBoxColumn47.Name = "dataGridViewTextBoxColumn47";
-            this.dataGridViewTextBoxColumn47.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn46
-            // 
-            this.dataGridViewTextBoxColumn46.HeaderText = "规定最迟归还时间";
-            this.dataGridViewTextBoxColumn46.Name = "dataGridViewTextBoxColumn46";
-            this.dataGridViewTextBoxColumn46.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn45
-            // 
-            this.dataGridViewTextBoxColumn45.HeaderText = "借阅时间";
-            this.dataGridViewTextBoxColumn45.Name = "dataGridViewTextBoxColumn45";
-            this.dataGridViewTextBoxColumn45.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn44
-            // 
-            this.dataGridViewTextBoxColumn44.HeaderText = "图书编号";
-            this.dataGridViewTextBoxColumn44.Name = "dataGridViewTextBoxColumn44";
-            this.dataGridViewTextBoxColumn44.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn43
-            // 
-            this.dataGridViewTextBoxColumn43.HeaderText = "用户编号";
-            this.dataGridViewTextBoxColumn43.Name = "dataGridViewTextBoxColumn43";
-            this.dataGridViewTextBoxColumn43.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn42
-            // 
-            this.dataGridViewTextBoxColumn42.HeaderText = "职员编号";
-            this.dataGridViewTextBoxColumn42.Name = "dataGridViewTextBoxColumn42";
-            this.dataGridViewTextBoxColumn42.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn41
-            // 
-            this.dataGridViewTextBoxColumn41.HeaderText = "借阅编号";
-            this.dataGridViewTextBoxColumn41.Name = "dataGridViewTextBoxColumn41";
-            this.dataGridViewTextBoxColumn41.ReadOnly = true;
-            // 
             // tabPage1
             // 
             this.tabPage1.Controls.Add(this.dataGridView1);
@@ -399,8 +445,86 @@
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(1048, 396);
             this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "tabPage1";
+            this.tabPage1.Text = "图书信息";
             this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column1_1,
+            this.Column1_2,
+            this.Column1_3,
+            this.Column1_4,
+            this.Column1_5,
+            this.Column1_6,
+            this.Column1_7,
+            this.Column1_8});
+            this.dataGridView1.Location = new System.Drawing.Point(2, 0);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.ReadOnly = true;
+            this.dataGridView1.RowTemplate.Height = 23;
+            this.dataGridView1.Size = new System.Drawing.Size(1043, 342);
+            this.dataGridView1.TabIndex = 8;
+            // 
+            // Column1_1
+            // 
+            this.Column1_1.HeaderText = "图书编号";
+            this.Column1_1.Name = "Column1_1";
+            this.Column1_1.ReadOnly = true;
+            // 
+            // Column1_2
+            // 
+            this.Column1_2.HeaderText = "ISBN号";
+            this.Column1_2.Name = "Column1_2";
+            this.Column1_2.ReadOnly = true;
+            // 
+            // Column1_3
+            // 
+            this.Column1_3.HeaderText = "书名";
+            this.Column1_3.Name = "Column1_3";
+            this.Column1_3.ReadOnly = true;
+            // 
+            // Column1_4
+            // 
+            this.Column1_4.HeaderText = "作者";
+            this.Column1_4.Name = "Column1_4";
+            this.Column1_4.ReadOnly = true;
+            // 
+            // Column1_5
+            // 
+            this.Column1_5.HeaderText = "出版单位";
+            this.Column1_5.Name = "Column1_5";
+            this.Column1_5.ReadOnly = true;
+            // 
+            // Column1_6
+            // 
+            this.Column1_6.HeaderText = "出版时间";
+            this.Column1_6.Name = "Column1_6";
+            this.Column1_6.ReadOnly = true;
+            // 
+            // Column1_7
+            // 
+            this.Column1_7.HeaderText = "图书价格（元）";
+            this.Column1_7.Name = "Column1_7";
+            this.Column1_7.ReadOnly = true;
+            // 
+            // Column1_8
+            // 
+            this.Column1_8.HeaderText = "借阅状态";
+            this.Column1_8.Name = "Column1_8";
+            this.Column1_8.ReadOnly = true;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(592, 353);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 7;
+            this.button1.Text = "确定";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // comboBox1
             // 
@@ -414,82 +538,6 @@
             this.comboBox1.TabIndex = 6;
             this.comboBox1.Text = "显示图书信息";
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(592, 353);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "确定";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn33,
-            this.dataGridViewTextBoxColumn34,
-            this.dataGridViewTextBoxColumn35,
-            this.dataGridViewTextBoxColumn36,
-            this.dataGridViewTextBoxColumn37,
-            this.dataGridViewTextBoxColumn38,
-            this.dataGridViewTextBoxColumn39,
-            this.dataGridViewTextBoxColumn40});
-            this.dataGridView1.Location = new System.Drawing.Point(2, 0);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowTemplate.Height = 23;
-            this.dataGridView1.Size = new System.Drawing.Size(1043, 342);
-            this.dataGridView1.TabIndex = 8;
-            // 
-            // dataGridViewTextBoxColumn40
-            // 
-            this.dataGridViewTextBoxColumn40.HeaderText = "借阅状态";
-            this.dataGridViewTextBoxColumn40.Name = "dataGridViewTextBoxColumn40";
-            this.dataGridViewTextBoxColumn40.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn39
-            // 
-            this.dataGridViewTextBoxColumn39.HeaderText = "图书价格（元）";
-            this.dataGridViewTextBoxColumn39.Name = "dataGridViewTextBoxColumn39";
-            this.dataGridViewTextBoxColumn39.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn38
-            // 
-            this.dataGridViewTextBoxColumn38.HeaderText = "出版时间";
-            this.dataGridViewTextBoxColumn38.Name = "dataGridViewTextBoxColumn38";
-            this.dataGridViewTextBoxColumn38.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn37
-            // 
-            this.dataGridViewTextBoxColumn37.HeaderText = "出版单位";
-            this.dataGridViewTextBoxColumn37.Name = "dataGridViewTextBoxColumn37";
-            this.dataGridViewTextBoxColumn37.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn36
-            // 
-            this.dataGridViewTextBoxColumn36.HeaderText = "作者";
-            this.dataGridViewTextBoxColumn36.Name = "dataGridViewTextBoxColumn36";
-            this.dataGridViewTextBoxColumn36.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn35
-            // 
-            this.dataGridViewTextBoxColumn35.HeaderText = "书名";
-            this.dataGridViewTextBoxColumn35.Name = "dataGridViewTextBoxColumn35";
-            this.dataGridViewTextBoxColumn35.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn34
-            // 
-            this.dataGridViewTextBoxColumn34.HeaderText = "ISBN号";
-            this.dataGridViewTextBoxColumn34.Name = "dataGridViewTextBoxColumn34";
-            this.dataGridViewTextBoxColumn34.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn33
-            // 
-            this.dataGridViewTextBoxColumn33.HeaderText = "图书编号";
-            this.dataGridViewTextBoxColumn33.Name = "dataGridViewTextBoxColumn33";
-            this.dataGridViewTextBoxColumn33.ReadOnly = true;
-            // 
             // tabControl1
             // 
             this.tabControl1.Controls.Add(this.tabPage1);
@@ -499,95 +547,61 @@
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(1056, 422);
-            this.tabControl1.TabIndex = 7;
+            this.tabControl1.TabIndex = 3;
             // 
-            // dataGridView3
+            // Column3_1
             // 
-            this.dataGridView3.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
-            this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView3.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn9,
-            this.dataGridViewTextBoxColumn10,
-            this.dataGridViewTextBoxColumn11,
-            this.dataGridViewTextBoxColumn12,
-            this.dataGridViewTextBoxColumn13,
-            this.dataGridViewTextBoxColumn14,
-            this.dataGridViewTextBoxColumn15,
-            this.dataGridViewTextBoxColumn16});
-            this.dataGridView3.Location = new System.Drawing.Point(2, 0);
-            this.dataGridView3.Name = "dataGridView3";
-            this.dataGridView3.RowTemplate.Height = 23;
-            this.dataGridView3.Size = new System.Drawing.Size(1043, 58);
-            this.dataGridView3.TabIndex = 8;
+            this.Column3_1.HeaderText = "用户编号";
+            this.Column3_1.Name = "Column3_1";
+            this.Column3_1.ReadOnly = true;
             // 
-            // dataGridViewTextBoxColumn9
+            // Column3_2
             // 
-            this.dataGridViewTextBoxColumn9.HeaderText = "职员编号";
-            this.dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
-            this.dataGridViewTextBoxColumn9.ReadOnly = true;
+            this.Column3_2.HeaderText = "用户名";
+            this.Column3_2.Name = "Column3_2";
+            this.Column3_2.ReadOnly = true;
             // 
-            // dataGridViewTextBoxColumn10
+            // Column3_3
             // 
-            this.dataGridViewTextBoxColumn10.HeaderText = "用户名";
-            this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
-            this.dataGridViewTextBoxColumn10.ReadOnly = true;
+            this.Column3_3.HeaderText = "密码";
+            this.Column3_3.Name = "Column3_3";
+            this.Column3_3.ReadOnly = true;
             // 
-            // dataGridViewTextBoxColumn11
+            // Column3_4
             // 
-            this.dataGridViewTextBoxColumn11.HeaderText = "密码";
-            this.dataGridViewTextBoxColumn11.Name = "dataGridViewTextBoxColumn11";
-            this.dataGridViewTextBoxColumn11.ReadOnly = true;
+            this.Column3_4.HeaderText = "姓名";
+            this.Column3_4.Name = "Column3_4";
+            this.Column3_4.ReadOnly = true;
             // 
-            // dataGridViewTextBoxColumn12
+            // Column3_5
             // 
-            this.dataGridViewTextBoxColumn12.HeaderText = "姓名";
-            this.dataGridViewTextBoxColumn12.Name = "dataGridViewTextBoxColumn12";
-            this.dataGridViewTextBoxColumn12.ReadOnly = true;
+            this.Column3_5.HeaderText = "性别";
+            this.Column3_5.Name = "Column3_5";
+            this.Column3_5.ReadOnly = true;
             // 
-            // dataGridViewTextBoxColumn13
+            // Column3_6
             // 
-            this.dataGridViewTextBoxColumn13.HeaderText = "性别";
-            this.dataGridViewTextBoxColumn13.Name = "dataGridViewTextBoxColumn13";
-            this.dataGridViewTextBoxColumn13.ReadOnly = true;
+            this.Column3_6.HeaderText = "注册时间";
+            this.Column3_6.Name = "Column3_6";
+            this.Column3_6.ReadOnly = true;
             // 
-            // dataGridViewTextBoxColumn14
+            // Column3_7
             // 
-            this.dataGridViewTextBoxColumn14.HeaderText = "入职时间";
-            this.dataGridViewTextBoxColumn14.Name = "dataGridViewTextBoxColumn14";
-            this.dataGridViewTextBoxColumn14.ReadOnly = true;
+            this.Column3_7.HeaderText = "可借书总数";
+            this.Column3_7.Name = "Column3_7";
+            this.Column3_7.ReadOnly = true;
             // 
-            // dataGridViewTextBoxColumn15
+            // Column3_8
             // 
-            this.dataGridViewTextBoxColumn15.HeaderText = "工资";
-            this.dataGridViewTextBoxColumn15.Name = "dataGridViewTextBoxColumn15";
-            this.dataGridViewTextBoxColumn15.ReadOnly = true;
+            this.Column3_8.HeaderText = "已借书数量";
+            this.Column3_8.Name = "Column3_8";
+            this.Column3_8.ReadOnly = true;
             // 
-            // dataGridViewTextBoxColumn16
+            // Column3_9
             // 
-            this.dataGridViewTextBoxColumn16.HeaderText = "权限";
-            this.dataGridViewTextBoxColumn16.Name = "dataGridViewTextBoxColumn16";
-            this.dataGridViewTextBoxColumn16.ReadOnly = true;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(592, 97);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 7;
-            this.button3.Text = "确定";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // comboBox3
-            // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
-            "显示个人信息",
-            "更新个人信息"});
-            this.comboBox3.Location = new System.Drawing.Point(397, 99);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(121, 20);
-            this.comboBox3.TabIndex = 6;
-            this.comboBox3.Text = "显示个人信息";
+            this.Column3_9.HeaderText = "逾期次数";
+            this.Column3_9.Name = "Column3_9";
+            this.Column3_9.ReadOnly = true;
             // 
             // UserForm
             // 
@@ -602,12 +616,12 @@
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.tabPage3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
             this.tabPage2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.tabPage1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.tabControl1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -638,44 +652,45 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.TabPage tabPage3;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.DataGridView dataGridView2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn41;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn42;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn43;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn44;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn45;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn46;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn47;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn48;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn49;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn50;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn33;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn34;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn35;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn36;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn37;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn38;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn39;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn40;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.TabPage tabPage3;
         private System.Windows.Forms.DataGridView dataGridView3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn9;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn10;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn11;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn12;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn13;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn14;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn15;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn16;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2_1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2_2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2_3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2_4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2_5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2_6;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2_7;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2_8;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2_9;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2_10;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1_1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1_2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1_3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1_4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1_5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1_6;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1_7;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1_8;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column3_1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column3_2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column3_3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column3_4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column3_5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column3_6;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column3_7;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column3_8;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column3_9;
     }
 }
