@@ -1,0 +1,119 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\VS\\NET\\BookLendingSystem\\BookLendingSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0B8CBF1B-5863-4ACD-8C66-753DAA2C6A6B}|BookLendingSystem.csproj|e:\\vs\\net\\booklendingsystem\\booklendingsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B8CBF1B-5863-4ACD-8C66-753DAA2C6A6B}|BookLendingSystem.csproj|solutionrelative:loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B8CBF1B-5863-4ACD-8C66-753DAA2C6A6B}|BookLendingSystem.csproj|e:\\vs\\net\\booklendingsystem\\booklendingsystem\\userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0B8CBF1B-5863-4ACD-8C66-753DAA2C6A6B}|BookLendingSystem.csproj|solutionrelative:userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B8CBF1B-5863-4ACD-8C66-753DAA2C6A6B}|BookLendingSystem.csproj|e:\\vs\\net\\booklendingsystem\\booklendingsystem\\userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B8CBF1B-5863-4ACD-8C66-753DAA2C6A6B}|BookLendingSystem.csproj|solutionrelative:userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B8CBF1B-5863-4ACD-8C66-753DAA2C6A6B}|BookLendingSystem.csproj|e:\\vs\\net\\booklendingsystem\\booklendingsystem\\userform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B8CBF1B-5863-4ACD-8C66-753DAA2C6A6B}|BookLendingSystem.csproj|solutionrelative:userform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B8CBF1B-5863-4ACD-8C66-753DAA2C6A6B}|BookLendingSystem.csproj|e:\\vs\\net\\booklendingsystem\\booklendingsystem\\staffform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0B8CBF1B-5863-4ACD-8C66-753DAA2C6A6B}|BookLendingSystem.csproj|solutionrelative:staffform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B8CBF1B-5863-4ACD-8C66-753DAA2C6A6B}|BookLendingSystem.csproj|e:\\vs\\net\\booklendingsystem\\booklendingsystem\\administratorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0B8CBF1B-5863-4ACD-8C66-753DAA2C6A6B}|BookLendingSystem.csproj|solutionrelative:administratorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserForm.Designer.cs",
+              "DocumentMoniker": "E:\\VS\\NET\\BookLendingSystem\\BookLendingSystem\\UserForm.Designer.cs",
+              "RelativeDocumentMoniker": "UserForm.Designer.cs",
+              "ToolTip": "E:\\VS\\NET\\BookLendingSystem\\BookLendingSystem\\UserForm.Designer.cs",
+              "RelativeToolTip": "UserForm.Designer.cs",
+              "ViewState": "AgIAAIYCAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T06:08:34.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "E:\\VS\\NET\\BookLendingSystem\\BookLendingSystem\\LoginForm.cs",
+              "RelativeDocumentMoniker": "LoginForm.cs",
+              "ToolTip": "E:\\VS\\NET\\BookLendingSystem\\BookLendingSystem\\LoginForm.cs",
+              "RelativeToolTip": "LoginForm.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T05:59:26.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserForm.cs",
+              "DocumentMoniker": "E:\\VS\\NET\\BookLendingSystem\\BookLendingSystem\\UserForm.cs",
+              "RelativeDocumentMoniker": "UserForm.cs",
+              "ToolTip": "E:\\VS\\NET\\BookLendingSystem\\BookLendingSystem\\UserForm.cs",
+              "RelativeToolTip": "UserForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T05:59:22.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserForm.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "E:\\VS\\NET\\BookLendingSystem\\BookLendingSystem\\UserForm.cs",
+              "RelativeDocumentMoniker": "UserForm.cs",
+              "ToolTip": "E:\\VS\\NET\\BookLendingSystem\\BookLendingSystem\\UserForm.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "UserForm.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T05:49:56.491Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdministratorForm.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "E:\\VS\\NET\\BookLendingSystem\\BookLendingSystem\\AdministratorForm.cs",
+              "RelativeDocumentMoniker": "AdministratorForm.cs",
+              "ToolTip": "E:\\VS\\NET\\BookLendingSystem\\BookLendingSystem\\AdministratorForm.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "AdministratorForm.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T05:55:50.892Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StaffForm.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "E:\\VS\\NET\\BookLendingSystem\\BookLendingSystem\\StaffForm.cs",
+              "RelativeDocumentMoniker": "StaffForm.cs",
+              "ToolTip": "E:\\VS\\NET\\BookLendingSystem\\BookLendingSystem\\StaffForm.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "StaffForm.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T05:49:38.742Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
