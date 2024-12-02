@@ -1,4 +1,4 @@
-﻿namespace BookLendingSystem.tool
+﻿namespace BookLendingSystem
 {
     public static class StaffAttributes
     {

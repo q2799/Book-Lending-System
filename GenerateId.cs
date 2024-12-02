@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Data;
 using MySql.Data.MySqlClient;
-using BookLendingSystem.tool;
+using BookLendingSystem;
 
-namespace BookLendingSystem.tool
+namespace BookLendingSystem
 {
     public class GenerateId
     {

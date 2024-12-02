@@ -10,7 +10,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Windows.Forms.VisualStyles;
-using BookLendingSystem.tool;
 using MySql.Data.MySqlClient;
 using MySqlX.XDevAPI.Common;
 
@@ -65,6 +64,7 @@ namespace BookLendingSystem
 
         private void button1_Click(object sender, EventArgs e)
         {
+
             name = textBox1.Text;
             password = textBox2.Text;
 
@@ -105,13 +105,12 @@ namespace BookLendingSystem
                 return;
             }
 
-            CloseDatabase();
             mainWindow.Show();
 
             this.textBox1.Clear();
             this.textBox2.Clear();
             radioButton1.Checked = false;
-            radioButton2.Checked = false;
+            radioButton2.Checked = true;
             this.Hide();
         }
 

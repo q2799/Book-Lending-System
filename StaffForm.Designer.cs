@@ -31,22 +31,61 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.Column1_1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column1_2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column1_3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column1_4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.button1 = new System.Windows.Forms.Button();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.Column2_1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2_2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2_3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2_4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2_5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2_6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2_7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2_8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2_9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.button2 = new System.Windows.Forms.Button();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.dataGridView3 = new System.Windows.Forms.DataGridView();
+            this.Column3_1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3_2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3_3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3_4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3_5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3_6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3_7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3_8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.button3 = new System.Windows.Forms.Button();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.dataGridView4 = new System.Windows.Forms.DataGridView();
+            this.Column4_1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4_2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4_3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4_4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4_5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4_6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4_7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4_8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4_9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4_10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.button4 = new System.Windows.Forms.Button();
             this.comboBox4 = new System.Windows.Forms.ComboBox();
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.dataGridView5 = new System.Windows.Forms.DataGridView();
+            this.Column5_1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5_2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5_3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5_4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5_5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5_6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5_7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5_8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.button5 = new System.Windows.Forms.Button();
             this.comboBox5 = new System.Windows.Forms.ComboBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
@@ -76,45 +115,6 @@
             this.toolStripMenuItem1_5 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1_6 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1_7 = new System.Windows.Forms.ToolStripMenuItem();
-            this.Column1_1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column1_2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column1_3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column1_4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2_1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2_2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2_3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2_4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2_5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2_6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2_7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2_8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2_9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3_1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3_2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3_3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3_4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3_5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3_6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3_7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3_8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4_1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4_2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4_3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4_4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4_5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4_6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4_7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4_8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4_9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4_10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5_1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5_2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5_3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5_4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5_5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5_6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5_7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5_8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -170,6 +170,30 @@
             this.dataGridView1.Size = new System.Drawing.Size(1043, 342);
             this.dataGridView1.TabIndex = 2;
             // 
+            // Column1_1
+            // 
+            this.Column1_1.HeaderText = "职员编号";
+            this.Column1_1.Name = "Column1_1";
+            this.Column1_1.ReadOnly = true;
+            // 
+            // Column1_2
+            // 
+            this.Column1_2.HeaderText = "姓名";
+            this.Column1_2.Name = "Column1_2";
+            this.Column1_2.ReadOnly = true;
+            // 
+            // Column1_3
+            // 
+            this.Column1_3.HeaderText = "性别";
+            this.Column1_3.Name = "Column1_3";
+            this.Column1_3.ReadOnly = true;
+            // 
+            // Column1_4
+            // 
+            this.Column1_4.HeaderText = "权限";
+            this.Column1_4.Name = "Column1_4";
+            this.Column1_4.ReadOnly = true;
+            // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(592, 353);
@@ -223,6 +247,60 @@
             this.dataGridView2.RowTemplate.Height = 23;
             this.dataGridView2.Size = new System.Drawing.Size(1043, 342);
             this.dataGridView2.TabIndex = 5;
+            // 
+            // Column2_1
+            // 
+            this.Column2_1.HeaderText = "用户编号";
+            this.Column2_1.Name = "Column2_1";
+            this.Column2_1.ReadOnly = true;
+            // 
+            // Column2_2
+            // 
+            this.Column2_2.HeaderText = "用户名";
+            this.Column2_2.Name = "Column2_2";
+            this.Column2_2.ReadOnly = true;
+            // 
+            // Column2_3
+            // 
+            this.Column2_3.HeaderText = "密码";
+            this.Column2_3.Name = "Column2_3";
+            this.Column2_3.ReadOnly = true;
+            // 
+            // Column2_4
+            // 
+            this.Column2_4.HeaderText = "姓名";
+            this.Column2_4.Name = "Column2_4";
+            this.Column2_4.ReadOnly = true;
+            // 
+            // Column2_5
+            // 
+            this.Column2_5.HeaderText = "性别";
+            this.Column2_5.Name = "Column2_5";
+            this.Column2_5.ReadOnly = true;
+            // 
+            // Column2_6
+            // 
+            this.Column2_6.HeaderText = "注册时间";
+            this.Column2_6.Name = "Column2_6";
+            this.Column2_6.ReadOnly = true;
+            // 
+            // Column2_7
+            // 
+            this.Column2_7.HeaderText = "可借书总数";
+            this.Column2_7.Name = "Column2_7";
+            this.Column2_7.ReadOnly = true;
+            // 
+            // Column2_8
+            // 
+            this.Column2_8.HeaderText = "已借书数量";
+            this.Column2_8.Name = "Column2_8";
+            this.Column2_8.ReadOnly = true;
+            // 
+            // Column2_9
+            // 
+            this.Column2_9.HeaderText = "逾期次数";
+            this.Column2_9.Name = "Column2_9";
+            this.Column2_9.ReadOnly = true;
             // 
             // button2
             // 
@@ -279,6 +357,54 @@
             this.dataGridView3.RowTemplate.Height = 23;
             this.dataGridView3.Size = new System.Drawing.Size(1043, 342);
             this.dataGridView3.TabIndex = 5;
+            // 
+            // Column3_1
+            // 
+            this.Column3_1.HeaderText = "图书编号";
+            this.Column3_1.Name = "Column3_1";
+            this.Column3_1.ReadOnly = true;
+            // 
+            // Column3_2
+            // 
+            this.Column3_2.HeaderText = "ISBN号";
+            this.Column3_2.Name = "Column3_2";
+            this.Column3_2.ReadOnly = true;
+            // 
+            // Column3_3
+            // 
+            this.Column3_3.HeaderText = "书名";
+            this.Column3_3.Name = "Column3_3";
+            this.Column3_3.ReadOnly = true;
+            // 
+            // Column3_4
+            // 
+            this.Column3_4.HeaderText = "作者";
+            this.Column3_4.Name = "Column3_4";
+            this.Column3_4.ReadOnly = true;
+            // 
+            // Column3_5
+            // 
+            this.Column3_5.HeaderText = "出版单位";
+            this.Column3_5.Name = "Column3_5";
+            this.Column3_5.ReadOnly = true;
+            // 
+            // Column3_6
+            // 
+            this.Column3_6.HeaderText = "出版时间";
+            this.Column3_6.Name = "Column3_6";
+            this.Column3_6.ReadOnly = true;
+            // 
+            // Column3_7
+            // 
+            this.Column3_7.HeaderText = "图书价格（元）";
+            this.Column3_7.Name = "Column3_7";
+            this.Column3_7.ReadOnly = true;
+            // 
+            // Column3_8
+            // 
+            this.Column3_8.HeaderText = "借阅状态";
+            this.Column3_8.Name = "Column3_8";
+            this.Column3_8.ReadOnly = true;
             // 
             // button3
             // 
@@ -338,6 +464,66 @@
             this.dataGridView4.Size = new System.Drawing.Size(1043, 342);
             this.dataGridView4.TabIndex = 5;
             // 
+            // Column4_1
+            // 
+            this.Column4_1.HeaderText = "借阅编号";
+            this.Column4_1.Name = "Column4_1";
+            this.Column4_1.ReadOnly = true;
+            // 
+            // Column4_2
+            // 
+            this.Column4_2.HeaderText = "职员编号";
+            this.Column4_2.Name = "Column4_2";
+            this.Column4_2.ReadOnly = true;
+            // 
+            // Column4_3
+            // 
+            this.Column4_3.HeaderText = "用户编号";
+            this.Column4_3.Name = "Column4_3";
+            this.Column4_3.ReadOnly = true;
+            // 
+            // Column4_4
+            // 
+            this.Column4_4.HeaderText = "图书编号";
+            this.Column4_4.Name = "Column4_4";
+            this.Column4_4.ReadOnly = true;
+            // 
+            // Column4_5
+            // 
+            this.Column4_5.HeaderText = "借阅时间";
+            this.Column4_5.Name = "Column4_5";
+            this.Column4_5.ReadOnly = true;
+            // 
+            // Column4_6
+            // 
+            this.Column4_6.HeaderText = "规定最迟归还时间";
+            this.Column4_6.Name = "Column4_6";
+            this.Column4_6.ReadOnly = true;
+            // 
+            // Column4_7
+            // 
+            this.Column4_7.HeaderText = "已借阅时间（日）";
+            this.Column4_7.Name = "Column4_7";
+            this.Column4_7.ReadOnly = true;
+            // 
+            // Column4_8
+            // 
+            this.Column4_8.HeaderText = "逾期状态";
+            this.Column4_8.Name = "Column4_8";
+            this.Column4_8.ReadOnly = true;
+            // 
+            // Column4_9
+            // 
+            this.Column4_9.HeaderText = "逾期时间（日）";
+            this.Column4_9.Name = "Column4_9";
+            this.Column4_9.ReadOnly = true;
+            // 
+            // Column4_10
+            // 
+            this.Column4_10.HeaderText = "逾期费用（元）";
+            this.Column4_10.Name = "Column4_10";
+            this.Column4_10.ReadOnly = true;
+            // 
             // button4
             // 
             this.button4.Location = new System.Drawing.Point(592, 353);
@@ -392,8 +578,56 @@
             this.dataGridView5.Location = new System.Drawing.Point(2, 0);
             this.dataGridView5.Name = "dataGridView5";
             this.dataGridView5.RowTemplate.Height = 23;
-            this.dataGridView5.Size = new System.Drawing.Size(1043, 58);
+            this.dataGridView5.Size = new System.Drawing.Size(1043, 80);
             this.dataGridView5.TabIndex = 5;
+            // 
+            // Column5_1
+            // 
+            this.Column5_1.HeaderText = "职员编号";
+            this.Column5_1.Name = "Column5_1";
+            this.Column5_1.ReadOnly = true;
+            // 
+            // Column5_2
+            // 
+            this.Column5_2.HeaderText = "用户名";
+            this.Column5_2.Name = "Column5_2";
+            this.Column5_2.ReadOnly = true;
+            // 
+            // Column5_3
+            // 
+            this.Column5_3.HeaderText = "密码";
+            this.Column5_3.Name = "Column5_3";
+            this.Column5_3.ReadOnly = true;
+            // 
+            // Column5_4
+            // 
+            this.Column5_4.HeaderText = "姓名";
+            this.Column5_4.Name = "Column5_4";
+            this.Column5_4.ReadOnly = true;
+            // 
+            // Column5_5
+            // 
+            this.Column5_5.HeaderText = "性别";
+            this.Column5_5.Name = "Column5_5";
+            this.Column5_5.ReadOnly = true;
+            // 
+            // Column5_6
+            // 
+            this.Column5_6.HeaderText = "入职时间";
+            this.Column5_6.Name = "Column5_6";
+            this.Column5_6.ReadOnly = true;
+            // 
+            // Column5_7
+            // 
+            this.Column5_7.HeaderText = "工资";
+            this.Column5_7.Name = "Column5_7";
+            this.Column5_7.ReadOnly = true;
+            // 
+            // Column5_8
+            // 
+            this.Column5_8.HeaderText = "权限";
+            this.Column5_8.Name = "Column5_8";
+            this.Column5_8.ReadOnly = true;
             // 
             // button5
             // 
@@ -611,240 +845,6 @@
             this.toolStripMenuItem1_7.Name = "toolStripMenuItem1_7";
             this.toolStripMenuItem1_7.Size = new System.Drawing.Size(148, 22);
             this.toolStripMenuItem1_7.Text = "退出";
-            // 
-            // Column1_1
-            // 
-            this.Column1_1.HeaderText = "职员编号";
-            this.Column1_1.Name = "Column1_1";
-            this.Column1_1.ReadOnly = true;
-            // 
-            // Column1_2
-            // 
-            this.Column1_2.HeaderText = "姓名";
-            this.Column1_2.Name = "Column1_2";
-            this.Column1_2.ReadOnly = true;
-            // 
-            // Column1_3
-            // 
-            this.Column1_3.HeaderText = "性别";
-            this.Column1_3.Name = "Column1_3";
-            this.Column1_3.ReadOnly = true;
-            // 
-            // Column1_4
-            // 
-            this.Column1_4.HeaderText = "权限";
-            this.Column1_4.Name = "Column1_4";
-            this.Column1_4.ReadOnly = true;
-            // 
-            // Column2_1
-            // 
-            this.Column2_1.HeaderText = "用户编号";
-            this.Column2_1.Name = "Column2_1";
-            this.Column2_1.ReadOnly = true;
-            // 
-            // Column2_2
-            // 
-            this.Column2_2.HeaderText = "用户名";
-            this.Column2_2.Name = "Column2_2";
-            this.Column2_2.ReadOnly = true;
-            // 
-            // Column2_3
-            // 
-            this.Column2_3.HeaderText = "密码";
-            this.Column2_3.Name = "Column2_3";
-            this.Column2_3.ReadOnly = true;
-            // 
-            // Column2_4
-            // 
-            this.Column2_4.HeaderText = "姓名";
-            this.Column2_4.Name = "Column2_4";
-            this.Column2_4.ReadOnly = true;
-            // 
-            // Column2_5
-            // 
-            this.Column2_5.HeaderText = "性别";
-            this.Column2_5.Name = "Column2_5";
-            this.Column2_5.ReadOnly = true;
-            // 
-            // Column2_6
-            // 
-            this.Column2_6.HeaderText = "注册时间";
-            this.Column2_6.Name = "Column2_6";
-            this.Column2_6.ReadOnly = true;
-            // 
-            // Column2_7
-            // 
-            this.Column2_7.HeaderText = "可借书总数";
-            this.Column2_7.Name = "Column2_7";
-            this.Column2_7.ReadOnly = true;
-            // 
-            // Column2_8
-            // 
-            this.Column2_8.HeaderText = "已借书数量";
-            this.Column2_8.Name = "Column2_8";
-            this.Column2_8.ReadOnly = true;
-            // 
-            // Column2_9
-            // 
-            this.Column2_9.HeaderText = "逾期次数";
-            this.Column2_9.Name = "Column2_9";
-            this.Column2_9.ReadOnly = true;
-            // 
-            // Column3_1
-            // 
-            this.Column3_1.HeaderText = "图书编号";
-            this.Column3_1.Name = "Column3_1";
-            this.Column3_1.ReadOnly = true;
-            // 
-            // Column3_2
-            // 
-            this.Column3_2.HeaderText = "ISBN号";
-            this.Column3_2.Name = "Column3_2";
-            this.Column3_2.ReadOnly = true;
-            // 
-            // Column3_3
-            // 
-            this.Column3_3.HeaderText = "书名";
-            this.Column3_3.Name = "Column3_3";
-            this.Column3_3.ReadOnly = true;
-            // 
-            // Column3_4
-            // 
-            this.Column3_4.HeaderText = "作者";
-            this.Column3_4.Name = "Column3_4";
-            this.Column3_4.ReadOnly = true;
-            // 
-            // Column3_5
-            // 
-            this.Column3_5.HeaderText = "出版单位";
-            this.Column3_5.Name = "Column3_5";
-            this.Column3_5.ReadOnly = true;
-            // 
-            // Column3_6
-            // 
-            this.Column3_6.HeaderText = "出版时间";
-            this.Column3_6.Name = "Column3_6";
-            this.Column3_6.ReadOnly = true;
-            // 
-            // Column3_7
-            // 
-            this.Column3_7.HeaderText = "图书价格（元）";
-            this.Column3_7.Name = "Column3_7";
-            this.Column3_7.ReadOnly = true;
-            // 
-            // Column3_8
-            // 
-            this.Column3_8.HeaderText = "借阅状态";
-            this.Column3_8.Name = "Column3_8";
-            this.Column3_8.ReadOnly = true;
-            // 
-            // Column4_1
-            // 
-            this.Column4_1.HeaderText = "借阅编号";
-            this.Column4_1.Name = "Column4_1";
-            this.Column4_1.ReadOnly = true;
-            // 
-            // Column4_2
-            // 
-            this.Column4_2.HeaderText = "职员编号";
-            this.Column4_2.Name = "Column4_2";
-            this.Column4_2.ReadOnly = true;
-            // 
-            // Column4_3
-            // 
-            this.Column4_3.HeaderText = "用户编号";
-            this.Column4_3.Name = "Column4_3";
-            this.Column4_3.ReadOnly = true;
-            // 
-            // Column4_4
-            // 
-            this.Column4_4.HeaderText = "图书编号";
-            this.Column4_4.Name = "Column4_4";
-            this.Column4_4.ReadOnly = true;
-            // 
-            // Column4_5
-            // 
-            this.Column4_5.HeaderText = "借阅时间";
-            this.Column4_5.Name = "Column4_5";
-            this.Column4_5.ReadOnly = true;
-            // 
-            // Column4_6
-            // 
-            this.Column4_6.HeaderText = "规定最迟归还时间";
-            this.Column4_6.Name = "Column4_6";
-            this.Column4_6.ReadOnly = true;
-            // 
-            // Column4_7
-            // 
-            this.Column4_7.HeaderText = "已借阅时间（日）";
-            this.Column4_7.Name = "Column4_7";
-            this.Column4_7.ReadOnly = true;
-            // 
-            // Column4_8
-            // 
-            this.Column4_8.HeaderText = "逾期状态";
-            this.Column4_8.Name = "Column4_8";
-            this.Column4_8.ReadOnly = true;
-            // 
-            // Column4_9
-            // 
-            this.Column4_9.HeaderText = "逾期时间（日）";
-            this.Column4_9.Name = "Column4_9";
-            this.Column4_9.ReadOnly = true;
-            // 
-            // Column4_10
-            // 
-            this.Column4_10.HeaderText = "逾期费用（元）";
-            this.Column4_10.Name = "Column4_10";
-            this.Column4_10.ReadOnly = true;
-            // 
-            // Column5_1
-            // 
-            this.Column5_1.HeaderText = "职员编号";
-            this.Column5_1.Name = "Column5_1";
-            this.Column5_1.ReadOnly = true;
-            // 
-            // Column5_2
-            // 
-            this.Column5_2.HeaderText = "用户名";
-            this.Column5_2.Name = "Column5_2";
-            this.Column5_2.ReadOnly = true;
-            // 
-            // Column5_3
-            // 
-            this.Column5_3.HeaderText = "密码";
-            this.Column5_3.Name = "Column5_3";
-            this.Column5_3.ReadOnly = true;
-            // 
-            // Column5_4
-            // 
-            this.Column5_4.HeaderText = "姓名";
-            this.Column5_4.Name = "Column5_4";
-            this.Column5_4.ReadOnly = true;
-            // 
-            // Column5_5
-            // 
-            this.Column5_5.HeaderText = "性别";
-            this.Column5_5.Name = "Column5_5";
-            this.Column5_5.ReadOnly = true;
-            // 
-            // Column5_6
-            // 
-            this.Column5_6.HeaderText = "入职时间";
-            this.Column5_6.Name = "Column5_6";
-            this.Column5_6.ReadOnly = true;
-            // 
-            // Column5_7
-            // 
-            this.Column5_7.HeaderText = "工资";
-            this.Column5_7.Name = "Column5_7";
-            this.Column5_7.ReadOnly = true;
-            // 
-            // Column5_8
-            // 
-            this.Column5_8.HeaderText = "权限";
-            this.Column5_8.Name = "Column5_8";
-            this.Column5_8.ReadOnly = true;
             // 
             // StaffForm
             // 

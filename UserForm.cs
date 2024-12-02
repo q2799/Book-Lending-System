@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Data.Common;
 using System.Data.SqlClient;
+using System.Diagnostics.Eventing.Reader;
 using System.Drawing;
 using System.Linq;
 using System.Reflection;
@@ -12,7 +13,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Schema;
-using BookLendingSystem.tool;
 using MySql.Data.MySqlClient;
 using MySqlX.XDevAPI.Common;
 using MySqlX.XDevAPI.CRUD;
@@ -23,15 +23,15 @@ namespace BookLendingSystem
     public partial class UserForm : Form
     {
         private Form LoginForm;
-        private List<List<string>> information = new List<List<string>>() { new List<string>() };
+        private List<List<string>> information; // 登录信息
         private MySqlConnection dbConnection;
         private string tableName; // 当前表
-        private List<string> attributes = new List<string>(); // 属性
-        private List<List<string>> result = new List<List<string>>() { new List<string>() }; // 记录
+        private List<string> attributes; // 属性
+        private List<List<string>> result; // 记录
         private int row;
         private int col;
-        private List<List<string>> updateSetTable = new List<List<string>>() { new List<string>() }; // 更新
-        private List<List<string>> selectFromTable = new List<List<string>>() { new List<string>() }; // 查询
+        private Form updateSetTable; // 更新
+        private Form selectFromTable; // 查询
 
         public UserForm(Form LoginForm, List<List<string>> information = null)
         {
@@ -49,7 +49,7 @@ namespace BookLendingSystem
             this.ConnectToDatabase();
         }
 
-        private void ConnectToDatabase() // 连接数据库
+        protected void ConnectToDatabase() // 连接数据库
         {
             DBUtil.ImportFromTxt();
             dbConnection = DBUtil.GetConnection();
@@ -60,18 +60,18 @@ namespace BookLendingSystem
             }
         }
 
-        private void CloseDatabase() // 关闭数据库
+        protected void CloseDatabase() // 关闭数据库
         {
             DBUtil.Close(dbConnection);
         }
 
-        private void ShowDatabaseError() // 显示数据库错误信息
+        protected void ShowDatabaseError() // 显示数据库错误信息
         {
             MessageBox.Show("数据库连接错误", "错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
 
 
-        private void UpdateInformation()  // 更新借阅信息的已借阅时间、逾期状态、逾期时间、逾期费用
+        protected void UpdateInformation()  // 更新借阅信息的已借阅时间、逾期状态、逾期时间、逾期费用
         {
             MySqlCommand cmd = new MySqlCommand("", dbConnection);
             string sql = "select * from borrow";
@@ -138,9 +138,33 @@ namespace BookLendingSystem
             }
         }
 
-        private void GetTableInformation(string tableName)  // 获取表的信息
+        protected void GetTableInformation(string tableName)  // 获取表的信息
         {
             MySqlCommand cmd = new MySqlCommand("", dbConnection);
+
+            // 获取属性名
+            string sqlCol = $"show columns from {tableName}";
+            cmd.CommandText = sqlCol;
+            if (attributes == null)
+                this.attributes = new List<string>();
+            else
+                this.attributes.Clear();
+            try
+            {
+                using (MySqlDataReader reader = cmd.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        attributes.Add(reader["Field"].ToString());
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("无法获取到属性名" + ex.Message);
+                return;
+            }
+
             if (tableName == "borrow")
             {
                 UpdateInformation();
@@ -155,7 +179,10 @@ namespace BookLendingSystem
             {
                 using (MySqlDataReader reader = cmd.ExecuteReader())
                 {
-                    this.result = new List<List<string>>();
+                    if (result == null)
+                        this.result = new List<List<string>>();
+                    else
+                        this.result.Clear();
                     while (reader.Read())
                     {
                         List<string> resultList = new List<string>();
@@ -176,39 +203,43 @@ namespace BookLendingSystem
             cmd.Dispose();
         }
 
-        public void DisplayTable(DataGridView dataGridView)  // 显示列表
+        protected void DisplayTable(DataGridView dataGridView)  // 显示列表
         {
             if (dataGridView.RowCount > 0)
             {
                 dataGridView.Rows.Clear();
             }
-            dataGridView.RowCount = this.row;  // 设置表格行数
-            dataGridView.ColumnCount = this.col;  // 设置表格列数
+
+            DataTable dataTable = new DataTable();
+            for (int j = 0; j < this.col; j++)
+            {
+                dataTable.Columns.Add(attributes[j]);
+            }
 
             // 显示表的内容
             for (int i = 0; i < this.row; i++)
             {
+                DataRow dataRow = dataTable.NewRow();
                 for (int j = 0; j < this.col; j++)
-                {
-                    string data = result[i][j];
-                    dataGridView.Rows[i].Cells[j].Value = data;
-                }
+                    dataRow[j] = result[i][j];
+                dataGridView.Rows.Add(dataRow.ItemArray.Cast<object>().ToArray());
             }
         }
 
-        public void SelectItems()  // 查询
+        protected void SelectItems()  // 查询
         {
-
+            this.selectFromTable = new CreateSelectFromTable(dbConnection, tableName, attributes, 1, col, 0);
+            this.selectFromTable.ShowDialog();
         }
 
-        private void DisplayBookTable()  // 显示图书信息
+        protected void DisplayBookTable()  // 显示图书信息
         {
             tableName = "book";
             GetTableInformation(tableName);  // 从数据库中获取所需信息
             DisplayTable(this.dataGridView1);  // 显示
         }
 
-        private void GetBook(object sender, EventArgs e)  // 图书信息
+        protected void GetBook(object sender, EventArgs e)  // 图书信息
         {
             int currentIndex = this.comboBox1.SelectedIndex;  // 获取图书列表的选项框的当前选项的索引
             if (currentIndex == 0)  // 显示图书信息
@@ -221,14 +252,14 @@ namespace BookLendingSystem
             }
         }
 
-        private void SelectBookTable()  // 查询图书信息
+        protected void SelectBookTable()  // 查询图书信息
         {
             tableName = "book";
             GetTableInformation(tableName);  // 从数据库中获取所需信息
             SelectItems();  // 查询
         }
 
-        private void GetBorrow(object sender, EventArgs e)  // 借阅信息
+        protected void GetBorrow(object sender, EventArgs e)  // 借阅信息
         {
             int currentIndex = this.comboBox2.SelectedIndex;  // 获取借阅列表的选项框的当前选项的索引
             if (currentIndex == 0)  // 显示借阅信息
@@ -241,52 +272,54 @@ namespace BookLendingSystem
             }
         }
 
-        private void DisplayBorrowTable()  // 显示借阅信息
+        protected void DisplayBorrowTable()  // 显示借阅信息
         {
             tableName = "borrow";
             GetTableInformation(tableName);  // 从数据库中获取所需信息
             DisplayTable(this.dataGridView2);  // 显示
         }
 
-        private void SelectBorrowTable()  // 查询借阅信息
+        protected void SelectBorrowTable()  // 查询借阅信息
         {
             tableName = "borrow";
             GetTableInformation(tableName);  // 从数据库中获取所需信息
             SelectItems();  // 查询
         }
 
-        public void DisplayPersonalInformation()  // 显示个人信息
+        protected void DisplayPersonalInformation()  // 显示个人信息
         {
             tableName = "user";
             GetTableInformation(tableName);  // 从数据库中获取所需信息
             DisplayTable(dataGridView3);
         }
 
-        public void UpdatePersonalInformation() // 更新个人信息
+        protected void UpdatePersonalInformation() // 更新个人信息
         {
-
+            tableName = "user";
+            GetTableInformation(tableName);  // 从数据库中获取所需信息
+            this.updateSetTable = new CreateUpdateSetTable(dbConnection, tableName, attributes, 1, col, 0, information);
+            this.updateSetTable.Show();
         }
 
-        public void DisplayAll()
+        protected void DisplayAll()
         {
             this.DisplayBookTable();
             this.DisplayBorrowTable();
             this.DisplayTable(dataGridView3);
         }
 
-        
-        public void LogInAgain()//重新登录
+
+        protected void LogInAgain() //重新登录
         {
-            //var login = new LoginForm();
             this.CloseDatabase();
             LoginForm.Show();
             this.Close();
         }
 
-        
-        public void Exit()//退出
+        protected void Exit() //退出
         {
             this.CloseDatabase();
+            LoginForm.Close();
             this.Close();
         }
 
@@ -322,17 +355,63 @@ namespace BookLendingSystem
 
         private void button3_Click(object sender, EventArgs e)
         {
-            int currentIndex = comboBox2.SelectedIndex;
+            int currentIndex = comboBox3.SelectedIndex;
             if (currentIndex == 0)
             {
                 // 显示个人信息
-                this.DisplayPersonalInformation();
+                DisplayPersonalInformation();
             }
-            else if (currentIndex == 1 && dataGridView2.Rows.Count > 0)
+            else if (currentIndex == 1 && dataGridView3.Rows.Count > 0)
             {
                 // 更新个人信息
                 UpdatePersonalInformation();
             }
+        }
+
+        private void toolStripMenuItem1_1_1_Click(object sender, EventArgs e)
+        {
+            // 显示图书信息
+            DisplayBookTable();
+        }
+
+        private void toolStripMenuItem1_1_2_Click(object sender, EventArgs e)
+        {
+            // 查询图书信息
+            SelectBookTable();
+        }
+
+        private void toolStripMenuItem1_2_1_Click(object sender, EventArgs e)
+        {
+            // 显示借阅信息
+            DisplayBorrowTable();
+        }
+
+        private void toolStripMenuItem1_2_2_Click(object sender, EventArgs e)
+        {
+            // 查询借阅信息
+            SelectBorrowTable();
+        }
+
+        private void toolStripMenuItem1_3_Click(object sender, EventArgs e)
+        {
+            // 显示图书信息
+            DisplayBookTable();
+            // 显示借阅信息
+            DisplayBorrowTable();
+            // 显示个人信息
+            DisplayPersonalInformation();
+        }
+
+        private void toolStripMenuItem1_4_Click(object sender, EventArgs e)
+        {
+            //重新登录
+            LogInAgain();
+        }
+
+        private void toolStripMenuItem1_5_Click(object sender, EventArgs e)
+        {
+            //退出
+            Exit();
         }
     }
 }

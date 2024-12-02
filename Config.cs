@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Globalization;
 
-namespace BookLendingSystem.tool
+namespace BookLendingSystem
 {
     public class Config
     {

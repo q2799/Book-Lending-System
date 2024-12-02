@@ -2,7 +2,7 @@
 using System.Security.Cryptography;
 using System.Text;
 
-namespace BookLendingSystem.tool
+namespace BookLendingSystem
 {
     public class Encrypt
     {

@@ -19,3 +19,4 @@ E:\VS\NET\BookLendingSystem\BookLendingSystem\obj\Debug\BookLendingSystem.LoginF
 E:\VS\NET\BookLendingSystem\BookLendingSystem\obj\Debug\BookLendingSystem.AdministratorForm.resources
 E:\VS\NET\BookLendingSystem\BookLendingSystem\obj\Debug\BookLendingSystem.StaffForm.resources
 E:\VS\NET\BookLendingSystem\BookLendingSystem\obj\Debug\BookLendingSystem.UserForm.resources
+E:\VS\NET\BookLendingSystem\BookLendingSystem\obj\Debug\BookLendingSystem.NewForm.resources

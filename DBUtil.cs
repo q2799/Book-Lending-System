@@ -2,7 +2,7 @@
 using System.IO;
 using MySql.Data.MySqlClient;
 
-namespace BookLendingSystem.tool
+namespace BookLendingSystem
 {
     public class DBUtil
     {
