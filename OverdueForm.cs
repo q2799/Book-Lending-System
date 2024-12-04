@@ -26,9 +26,10 @@ namespace BookLendingSystem
         public OverdueForm(MySqlConnection dbConnection = null, List<string> attributes = null, List<string> initialData = null)
         {
             InitializeComponent();
+            this.dbConnection = dbConnection;
+            this.attributes = attributes;
             this.initialData = initialData; // 保留初始数据
             this.Text = "图书延期";
-            button1.Click += button1_Click;
             SetData();
         }
 
@@ -45,14 +46,14 @@ namespace BookLendingSystem
 
             try
             {
-                int day = Convert.ToInt32(label1.Text);
+                int day = Convert.ToInt32(textBox1.Text);
                 if (day > 0)
                 {
                     try
                     {
-                        updateData[5] = Config.ExtensionReturnDate(updateData[5], day);
-                        updateData[7] = Config.Overdue(updateData[5]).ToString();
-                        updateData[8] = Config.OverdueDate(updateData[5]).ToString();
+                        updateData[5] = Config.ExtensionReturnDate(initialData[5], day);
+                        updateData[7] = Config.Overdue(initialData[5]).ToString();
+                        updateData[8] = Config.OverdueDate(initialData[5]).ToString();
                         updateData[9] = string.Format("{0:0.00}", Config.OverdueCost(Convert.ToInt32(updateData[8])));
 
                         string sql = $"UPDATE borrow SET returnDate = @Value1, overdue = @Value2, overdueDate = @Value3, " +
@@ -94,7 +95,11 @@ namespace BookLendingSystem
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Extension();
+            DialogResult result = MessageBox.Show("确定延期？", "确定", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (result == DialogResult.Yes)
+            {
+                Extension();
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
