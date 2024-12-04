@@ -130,7 +130,7 @@
             this.toolStripMenuItem1_1_1,
             this.toolStripMenuItem1_1_2});
             this.toolStripMenuItem1_1.Name = "toolStripMenuItem1_1";
-            this.toolStripMenuItem1_1.Size = new System.Drawing.Size(148, 22);
+            this.toolStripMenuItem1_1.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem1_1.Text = "图书信息";
             // 
             // toolStripMenuItem1_1_1
@@ -153,7 +153,7 @@
             this.toolStripMenuItem1_2_1,
             this.toolStripMenuItem1_2_2});
             this.toolStripMenuItem1_2.Name = "toolStripMenuItem1_2";
-            this.toolStripMenuItem1_2.Size = new System.Drawing.Size(148, 22);
+            this.toolStripMenuItem1_2.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem1_2.Text = "借阅信息";
             // 
             // toolStripMenuItem1_2_1
@@ -173,21 +173,21 @@
             // toolStripMenuItem1_3
             // 
             this.toolStripMenuItem1_3.Name = "toolStripMenuItem1_3";
-            this.toolStripMenuItem1_3.Size = new System.Drawing.Size(148, 22);
+            this.toolStripMenuItem1_3.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem1_3.Text = "显示所有信息";
             this.toolStripMenuItem1_3.Click += new System.EventHandler(this.toolStripMenuItem1_3_Click);
             // 
             // toolStripMenuItem1_4
             // 
             this.toolStripMenuItem1_4.Name = "toolStripMenuItem1_4";
-            this.toolStripMenuItem1_4.Size = new System.Drawing.Size(148, 22);
+            this.toolStripMenuItem1_4.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem1_4.Text = "重新登录";
             this.toolStripMenuItem1_4.Click += new System.EventHandler(this.toolStripMenuItem1_4_Click);
             // 
             // toolStripMenuItem1_5
             // 
             this.toolStripMenuItem1_5.Name = "toolStripMenuItem1_5";
-            this.toolStripMenuItem1_5.Size = new System.Drawing.Size(148, 22);
+            this.toolStripMenuItem1_5.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem1_5.Text = "退出";
             this.toolStripMenuItem1_5.Click += new System.EventHandler(this.toolStripMenuItem1_5_Click);
             // 
@@ -359,6 +359,7 @@
             // 
             // button3
             // 
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button3.Location = new System.Drawing.Point(592, 97);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
@@ -369,6 +370,8 @@
             // 
             // comboBox3
             // 
+            this.comboBox3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.comboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox3.FormattingEnabled = true;
             this.comboBox3.Items.AddRange(new object[] {
             "显示个人信息",
@@ -377,7 +380,6 @@
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(121, 20);
             this.comboBox3.TabIndex = 6;
-            this.comboBox3.Text = "显示个人信息";
             // 
             // tabPage2
             // 
@@ -476,6 +478,7 @@
             // 
             // button2
             // 
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.Location = new System.Drawing.Point(592, 353);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
@@ -486,6 +489,8 @@
             // 
             // comboBox2
             // 
+            this.comboBox2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Items.AddRange(new object[] {
             "显示借阅信息",
@@ -494,7 +499,6 @@
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(121, 20);
             this.comboBox2.TabIndex = 6;
-            this.comboBox2.Text = "显示借阅信息";
             // 
             // tabPage1
             // 
@@ -579,6 +583,7 @@
             // 
             // button1
             // 
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.Location = new System.Drawing.Point(592, 353);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
@@ -589,6 +594,8 @@
             // 
             // comboBox1
             // 
+            this.comboBox1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             "显示图书信息",
@@ -597,7 +604,6 @@
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 20);
             this.comboBox1.TabIndex = 6;
-            this.comboBox1.Text = "显示图书信息";
             // 
             // tabControl1
             // 
@@ -617,9 +623,10 @@
             this.ClientSize = new System.Drawing.Size(1056, 450);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.menuStrip1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "UserForm";
-            this.Text = "UserForm";
+            this.Text = "用户窗口";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.tabPage3.ResumeLayout(false);

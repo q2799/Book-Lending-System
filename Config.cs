@@ -3,7 +3,7 @@ using System.Globalization;
 
 namespace BookLendingSystem
 {
-    public class Config
+    internal class Config
     {
         public static string InitialStaffId() // 初始化职员编号
         {
@@ -27,8 +27,9 @@ namespace BookLendingSystem
 
         public static string InitialPassword() // 初始化密码
         {
-            string passwordStr = "123456";
-            return Encrypt.MD5Hash(passwordStr);
+            return "123456";
+            //string passwordStr = "123456";
+            //return Encrypt.MD5Hash(passwordStr);
         }
 
         public static string ChangePassword(string passwordStr) // 修改密码
@@ -87,16 +88,12 @@ namespace BookLendingSystem
             DateTime currentTime = DateTime.Now; // 获取系统当前时间
             TimeSpan diff = currentTime - date; // 计算时间差值
             if (diff.Days <= 0)
-            {
                 return 0;
-            }
             else
-            {
                 return diff.Days;
-            }
         }
 
-        public static int InitialOverdue() // 初始化逾期时间
+        public static int InitialOverdue() // 初始化逾期状态
         {
             return 0;
         }
@@ -107,13 +104,9 @@ namespace BookLendingSystem
             DateTime currentTime = DateTime.Now; // 获取系统当前时间
             TimeSpan diff = currentTime - date; // 计算时间差值
             if (diff.Days <= 0)
-            {
                 return 0;
-            }
             else
-            {
                 return 1;
-            }
         }
 
         public static int InitialOverdueDate() // 初始化逾期时间
@@ -127,13 +120,9 @@ namespace BookLendingSystem
             DateTime currentTime = DateTime.Now; // 获取系统当前时间
             TimeSpan diff = currentTime - date; // 计算时间差值
             if (diff.Days <= 0)
-            {
                 return 0;
-            }
             else
-            {
                 return diff.Days;
-            }
         }
 
         public static double InitialOverdueCost() // 初始化逾期费用
@@ -147,8 +136,18 @@ namespace BookLendingSystem
             return Math.Round(cost, 2);
         }
 
-        // 编辑权限
-        public static bool Editable(int flag, string tableName, string attributes)
+        public static bool IsDate(string attribute) // 是日期信息
+        {
+            if ((attribute == "hireDate") || (attribute == "registrationDate") || (attribute == "publicationDate")
+                || (attribute == "borrowDate") || (attribute == "returnDate") || (attribute == StaffAttributes.HireDate)
+                || (attribute == UserAttributes.RegistrationDate) || (attribute == BookAttributes.PublicationDate)
+                || (attribute == BorrowAttributes.BorrowDate) || (attribute == BorrowAttributes.ReturnDate))
+                return true;
+            else
+                return false;
+        }
+        
+        public static bool Editable(int flag, string tableName, string attributes) // 编辑权限
         {
             if (flag == 0) // 用户
             {
@@ -169,13 +168,8 @@ namespace BookLendingSystem
                     else
                         return true;
                 }
-                else if (tableName == "book")
-                {
-                    if (attributes == "bookId")
-                        return false;
-                    else
-                        return true;
-                }
+                else
+                    return false;
             }
             else if (flag == 1) // 职员
             {

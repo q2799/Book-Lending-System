@@ -39,6 +39,9 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Runtime.CompilerServices.Unsafe.6.1.0\lib\net462\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -58,6 +61,12 @@
     </Compile>
     <Compile Include="AttributesConfig.cs" />
     <Compile Include="Config.cs" />
+    <Compile Include="CreateDeleteFromTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateInsertIntoTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="CreateSelectFromTable.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -73,7 +82,6 @@
     <Compile Include="LoginForm.Designer.cs">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="LoginPort.cs" />
     <Compile Include="NewForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -93,12 +101,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resource1.resx</DependentUpon>
     </Compile>
-    <Compile Include="StaffForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="StaffForm.Designer.cs">
-      <DependentUpon>StaffForm.cs</DependentUpon>
-    </Compile>
     <Compile Include="UserForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -114,6 +116,9 @@
     <EmbeddedResource Include="NewForm.resx">
       <DependentUpon>NewForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="OverdueForm.resx">
+      <DependentUpon>OverdueForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -127,12 +132,10 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="StaffForm.resx">
-      <DependentUpon>StaffForm.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="UserForm.resx">
       <DependentUpon>UserForm.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

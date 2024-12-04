@@ -20,3 +20,8 @@ E:\VS\NET\BookLendingSystem\BookLendingSystem\obj\Debug\BookLendingSystem.Admini
 E:\VS\NET\BookLendingSystem\BookLendingSystem\obj\Debug\BookLendingSystem.StaffForm.resources
 E:\VS\NET\BookLendingSystem\BookLendingSystem\obj\Debug\BookLendingSystem.UserForm.resources
 E:\VS\NET\BookLendingSystem\BookLendingSystem\obj\Debug\BookLendingSystem.NewForm.resources
+E:\VS\NET\BookLendingSystem\BookLendingSystem\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\VS\NET\BookLendingSystem\BookLendingSystem\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\VS\NET\BookLendingSystem\BookLendingSystem\obj\Debug\BookLendingSystem.csproj.SuggestedBindingRedirects.cache
+E:\VS\NET\BookLendingSystem\BookLendingSystem\obj\Debug\BookLendingSystem.exe.config
+E:\VS\NET\BookLendingSystem\BookLendingSystem\obj\Debug\BookLendingSystem.OverdueForm.resources

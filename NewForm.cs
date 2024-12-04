@@ -12,15 +12,28 @@ using MySql.Data.MySqlClient;
 
 namespace BookLendingSystem
 {
-    public partial class NewForm : Form
+    internal partial class NewForm : Form
     {
         protected MySqlConnection dbConnection;
         protected string tableName;
-        protected List<string> attributes = new List<string>(); // 属性
+        protected List<string> attributes; // 属性
         protected int row;
         protected int col;
+        protected int flag;
 
-        public NewForm(MySqlConnection dbConnection = null, string tableName = null, List<string> attributes = null, int row = 0, int col = 0)
+        public NewForm()
+        {
+            InitializeComponent();
+            this.dbConnection = null;
+            this.tableName = null;
+            this.attributes = null;
+            this.row = 0;
+            this.col = 0;
+            this.flag = 0;
+        }
+
+        public NewForm(MySqlConnection dbConnection = null, string tableName = null, List<string> attributes = null,
+            int row = 0, int col = 0, int flag = 0)
         {
             InitializeComponent();
             this.dbConnection = dbConnection;
@@ -28,6 +41,7 @@ namespace BookLendingSystem
             this.attributes = attributes;
             this.row = row;
             this.col = col;
+            this.flag = flag;
         }
 
         protected void button2_Click(object sender, EventArgs e)
@@ -37,14 +51,14 @@ namespace BookLendingSystem
 
         protected void button1_Click(object sender, EventArgs e)
         {
-            DialogResult result = MessageBox.Show("确定执行该操作吗？", "确定", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-            if (result == DialogResult.Yes)
-            {
+            //DialogResult result = MessageBox.Show("确定执行该操作吗？", "确定", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            //if (result == DialogResult.Yes)
+            //{
                 Console.WriteLine("NewForm");
-            }
+            //}
         }
 
-        protected void SetItem() // 设置表格属性
+        protected void SetItem() // 设置表格列名
         {
             if (dataGridView1.RowCount > 0)
             {
@@ -74,6 +88,11 @@ namespace BookLendingSystem
                     }
                     object propertyValue = fieldInfo.GetValue(null);
                     dataGridView1.Columns[j].HeaderText = propertyValue.ToString();
+
+                    if (Config.Editable(flag, tableName, attributes[j]))
+                        dataGridView1.Columns[j].ReadOnly = false;
+                    else
+                        dataGridView1.Columns[j].ReadOnly = true;
                 }
             }
         }

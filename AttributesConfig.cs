@@ -1,6 +1,6 @@
 ﻿namespace BookLendingSystem
 {
-    public static class StaffAttributes
+    internal static class StaffAttributes
     {
         public static readonly string Staff = "职员信息";
         public static readonly string StaffId = "职员编号";
@@ -13,7 +13,7 @@
         public static readonly string Administrator = "权限";
     }
 
-    public static class UserAttributes
+    internal static class UserAttributes
     {
         public static readonly string User = "用户信息";
         public static readonly string UserId = "用户编号";
@@ -27,7 +27,7 @@
         public static readonly string NumberOfOverdue = "逾期次数";
     }
 
-    public static class BookAttributes
+    internal static class BookAttributes
     {
         public static readonly string Book = "图书信息";
         public static readonly string BookId = "图书编号";
@@ -40,7 +40,7 @@
         public static readonly string Borrowed = "借阅状态";
     }
 
-    public static class BorrowAttributes
+    internal static class BorrowAttributes
     {
         public static readonly string Borrow = "借阅信息";
         public static readonly string BorrowId = "借阅编号";

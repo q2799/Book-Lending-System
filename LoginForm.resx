@@ -124,7 +124,7 @@
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAp4AAAG+CAYAAAA6MgQ4AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DgAACw4BQL7hQQAA/7JJREFUeF7s/Qd0HEmWJQr2/nP2/7NfzMyOOruz/8+f6WldXdUlWpTq6tJVWVWp
+        DAAACwwBP0AiyAAA/7JJREFUeF7s/Qd0HEmWJQr2/nP2/7NfzMyOOruz/8+f6WldXdUlWpTq6tJVWVWp
         tdaCSSbJpMqk1lprUEtQgyRIAhQgCUIQBEBorQWhtY5ARAC4++7zcDCIBLMqM6uQmdXvZl6ah7vDw8Pc
         3Ozas2fP/gQGg8FgMBgMBsMYwISnwWAwGAwGg2FMYMLTYDAYDAaDwTAmMOFpMBgMBoPBYBgTmPA0GAwG
         g8FgMIwJTHgaDAaDwWAwGMYEJjwNBoPBYDAYDGMCE54Gg8FgMBgMhjGBCU+DwWAwGAwGw5jAhKfBYDAY
@@ -5552,6 +5552,27 @@
         AAAAAElFTkSuQmCC
 </value>
   </data>
+  <metadata name="textBox1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="textBox2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="label1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="label2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="button1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="radioButton1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="radioButton2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>

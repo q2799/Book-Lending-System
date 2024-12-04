@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BookLendingSystem
 {
-    public class Encrypt
+    internal class Encrypt
     {
         public static string MD5Hash(string input)
         {

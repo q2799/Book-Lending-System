@@ -28,36 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.menuStrip4 = new System.Windows.Forms.MenuStrip();
-            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem1_1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem1_1_1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem1_1_2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem1_1_3 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem1_1_4 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem1_1_5 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem1_2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem1_2_1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem1_2_2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem1_2_3 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem1_2_4 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem1_2_5 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem1_3 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem1_3_1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem1_3_2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem1_3_3 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem1_3_4 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem1_3_5 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem1_4 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem1_4_1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem1_4_2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem1_4_3 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem1_4_4 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem1_4_5 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem1_4_6 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem1_5 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem1_6 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem1_7 = new System.Windows.Forms.ToolStripMenuItem();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
@@ -122,7 +92,37 @@
             this.Column5_8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.button5 = new System.Windows.Forms.Button();
             this.comboBox5 = new System.Windows.Forms.ComboBox();
-            this.menuStrip4.SuspendLayout();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1_1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1_1_1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1_1_2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1_1_3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1_1_4 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1_1_5 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1_2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1_2_1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1_2_2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1_2_3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1_2_4 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1_2_5 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1_3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1_3_1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1_3_2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1_3_3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1_3_4 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1_3_5 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1_4 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1_4_1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1_4_2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1_4_3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1_4_4 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1_4_5 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1_4_6 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1_5 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1_6 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1_7 = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip4 = new System.Windows.Forms.MenuStrip();
+            this.toolStripMenuItem1_8 = new System.Windows.Forms.ToolStripMenuItem();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -134,224 +134,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).BeginInit();
             this.tabPage5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).BeginInit();
+            this.menuStrip4.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // menuStrip4
-            // 
-            this.menuStrip4.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem1});
-            this.menuStrip4.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip4.Name = "menuStrip4";
-            this.menuStrip4.Size = new System.Drawing.Size(1056, 25);
-            this.menuStrip4.TabIndex = 4;
-            this.menuStrip4.Text = "menuStrip4";
-            // 
-            // toolStripMenuItem1
-            // 
-            this.toolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem1_1,
-            this.toolStripMenuItem1_2,
-            this.toolStripMenuItem1_3,
-            this.toolStripMenuItem1_4,
-            this.toolStripMenuItem1_5,
-            this.toolStripMenuItem1_6,
-            this.toolStripMenuItem1_7});
-            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(44, 21);
-            this.toolStripMenuItem1.Text = "菜单";
-            // 
-            // toolStripMenuItem1_1
-            // 
-            this.toolStripMenuItem1_1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem1_1_1,
-            this.toolStripMenuItem1_1_2,
-            this.toolStripMenuItem1_1_3,
-            this.toolStripMenuItem1_1_4,
-            this.toolStripMenuItem1_1_5});
-            this.toolStripMenuItem1_1.Name = "toolStripMenuItem1_1";
-            this.toolStripMenuItem1_1.Size = new System.Drawing.Size(148, 22);
-            this.toolStripMenuItem1_1.Text = "职员信息";
-            // 
-            // toolStripMenuItem1_1_1
-            // 
-            this.toolStripMenuItem1_1_1.Name = "toolStripMenuItem1_1_1";
-            this.toolStripMenuItem1_1_1.Size = new System.Drawing.Size(148, 22);
-            this.toolStripMenuItem1_1_1.Text = "显示职员信息";
-            // 
-            // toolStripMenuItem1_1_2
-            // 
-            this.toolStripMenuItem1_1_2.Name = "toolStripMenuItem1_1_2";
-            this.toolStripMenuItem1_1_2.Size = new System.Drawing.Size(148, 22);
-            this.toolStripMenuItem1_1_2.Text = "增加职员信息";
-            // 
-            // toolStripMenuItem1_1_3
-            // 
-            this.toolStripMenuItem1_1_3.Name = "toolStripMenuItem1_1_3";
-            this.toolStripMenuItem1_1_3.Size = new System.Drawing.Size(148, 22);
-            this.toolStripMenuItem1_1_3.Text = "删除职员信息";
-            // 
-            // toolStripMenuItem1_1_4
-            // 
-            this.toolStripMenuItem1_1_4.Name = "toolStripMenuItem1_1_4";
-            this.toolStripMenuItem1_1_4.Size = new System.Drawing.Size(148, 22);
-            this.toolStripMenuItem1_1_4.Text = "更新职员信息";
-            // 
-            // toolStripMenuItem1_1_5
-            // 
-            this.toolStripMenuItem1_1_5.Name = "toolStripMenuItem1_1_5";
-            this.toolStripMenuItem1_1_5.Size = new System.Drawing.Size(148, 22);
-            this.toolStripMenuItem1_1_5.Text = "查询职员信息";
-            // 
-            // toolStripMenuItem1_2
-            // 
-            this.toolStripMenuItem1_2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem1_2_1,
-            this.toolStripMenuItem1_2_2,
-            this.toolStripMenuItem1_2_3,
-            this.toolStripMenuItem1_2_4,
-            this.toolStripMenuItem1_2_5});
-            this.toolStripMenuItem1_2.Name = "toolStripMenuItem1_2";
-            this.toolStripMenuItem1_2.Size = new System.Drawing.Size(148, 22);
-            this.toolStripMenuItem1_2.Text = "用户信息";
-            // 
-            // toolStripMenuItem1_2_1
-            // 
-            this.toolStripMenuItem1_2_1.Name = "toolStripMenuItem1_2_1";
-            this.toolStripMenuItem1_2_1.Size = new System.Drawing.Size(148, 22);
-            this.toolStripMenuItem1_2_1.Text = "显示用户信息";
-            // 
-            // toolStripMenuItem1_2_2
-            // 
-            this.toolStripMenuItem1_2_2.Name = "toolStripMenuItem1_2_2";
-            this.toolStripMenuItem1_2_2.Size = new System.Drawing.Size(148, 22);
-            this.toolStripMenuItem1_2_2.Text = "增加用户信息";
-            // 
-            // toolStripMenuItem1_2_3
-            // 
-            this.toolStripMenuItem1_2_3.Name = "toolStripMenuItem1_2_3";
-            this.toolStripMenuItem1_2_3.Size = new System.Drawing.Size(148, 22);
-            this.toolStripMenuItem1_2_3.Text = "删除用户信息";
-            // 
-            // toolStripMenuItem1_2_4
-            // 
-            this.toolStripMenuItem1_2_4.Name = "toolStripMenuItem1_2_4";
-            this.toolStripMenuItem1_2_4.Size = new System.Drawing.Size(148, 22);
-            this.toolStripMenuItem1_2_4.Text = "更新用户信息";
-            // 
-            // toolStripMenuItem1_2_5
-            // 
-            this.toolStripMenuItem1_2_5.Name = "toolStripMenuItem1_2_5";
-            this.toolStripMenuItem1_2_5.Size = new System.Drawing.Size(148, 22);
-            this.toolStripMenuItem1_2_5.Text = "查询用户信息";
-            // 
-            // toolStripMenuItem1_3
-            // 
-            this.toolStripMenuItem1_3.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem1_3_1,
-            this.toolStripMenuItem1_3_2,
-            this.toolStripMenuItem1_3_3,
-            this.toolStripMenuItem1_3_4,
-            this.toolStripMenuItem1_3_5});
-            this.toolStripMenuItem1_3.Name = "toolStripMenuItem1_3";
-            this.toolStripMenuItem1_3.Size = new System.Drawing.Size(148, 22);
-            this.toolStripMenuItem1_3.Text = "图书信息";
-            // 
-            // toolStripMenuItem1_3_1
-            // 
-            this.toolStripMenuItem1_3_1.Name = "toolStripMenuItem1_3_1";
-            this.toolStripMenuItem1_3_1.Size = new System.Drawing.Size(148, 22);
-            this.toolStripMenuItem1_3_1.Text = "显示图书信息";
-            // 
-            // toolStripMenuItem1_3_2
-            // 
-            this.toolStripMenuItem1_3_2.Name = "toolStripMenuItem1_3_2";
-            this.toolStripMenuItem1_3_2.Size = new System.Drawing.Size(148, 22);
-            this.toolStripMenuItem1_3_2.Text = "增加图书信息";
-            // 
-            // toolStripMenuItem1_3_3
-            // 
-            this.toolStripMenuItem1_3_3.Name = "toolStripMenuItem1_3_3";
-            this.toolStripMenuItem1_3_3.Size = new System.Drawing.Size(148, 22);
-            this.toolStripMenuItem1_3_3.Text = "删除图书信息";
-            // 
-            // toolStripMenuItem1_3_4
-            // 
-            this.toolStripMenuItem1_3_4.Name = "toolStripMenuItem1_3_4";
-            this.toolStripMenuItem1_3_4.Size = new System.Drawing.Size(148, 22);
-            this.toolStripMenuItem1_3_4.Text = "更新图书信息";
-            // 
-            // toolStripMenuItem1_3_5
-            // 
-            this.toolStripMenuItem1_3_5.Name = "toolStripMenuItem1_3_5";
-            this.toolStripMenuItem1_3_5.Size = new System.Drawing.Size(148, 22);
-            this.toolStripMenuItem1_3_5.Text = "查询图书信息";
-            // 
-            // toolStripMenuItem1_4
-            // 
-            this.toolStripMenuItem1_4.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem1_4_1,
-            this.toolStripMenuItem1_4_2,
-            this.toolStripMenuItem1_4_3,
-            this.toolStripMenuItem1_4_4,
-            this.toolStripMenuItem1_4_5,
-            this.toolStripMenuItem1_4_6});
-            this.toolStripMenuItem1_4.Name = "toolStripMenuItem1_4";
-            this.toolStripMenuItem1_4.Size = new System.Drawing.Size(148, 22);
-            this.toolStripMenuItem1_4.Text = "借阅信息";
-            // 
-            // toolStripMenuItem1_4_1
-            // 
-            this.toolStripMenuItem1_4_1.Name = "toolStripMenuItem1_4_1";
-            this.toolStripMenuItem1_4_1.Size = new System.Drawing.Size(148, 22);
-            this.toolStripMenuItem1_4_1.Text = "显示借阅信息";
-            // 
-            // toolStripMenuItem1_4_2
-            // 
-            this.toolStripMenuItem1_4_2.Name = "toolStripMenuItem1_4_2";
-            this.toolStripMenuItem1_4_2.Size = new System.Drawing.Size(148, 22);
-            this.toolStripMenuItem1_4_2.Text = "借阅图书";
-            // 
-            // toolStripMenuItem1_4_3
-            // 
-            this.toolStripMenuItem1_4_3.Name = "toolStripMenuItem1_4_3";
-            this.toolStripMenuItem1_4_3.Size = new System.Drawing.Size(148, 22);
-            this.toolStripMenuItem1_4_3.Text = "归还图书";
-            // 
-            // toolStripMenuItem1_4_4
-            // 
-            this.toolStripMenuItem1_4_4.Name = "toolStripMenuItem1_4_4";
-            this.toolStripMenuItem1_4_4.Size = new System.Drawing.Size(148, 22);
-            this.toolStripMenuItem1_4_4.Text = "更新借阅信息";
-            // 
-            // toolStripMenuItem1_4_5
-            // 
-            this.toolStripMenuItem1_4_5.Name = "toolStripMenuItem1_4_5";
-            this.toolStripMenuItem1_4_5.Size = new System.Drawing.Size(148, 22);
-            this.toolStripMenuItem1_4_5.Text = "延期归还图书";
-            // 
-            // toolStripMenuItem1_4_6
-            // 
-            this.toolStripMenuItem1_4_6.Name = "toolStripMenuItem1_4_6";
-            this.toolStripMenuItem1_4_6.Size = new System.Drawing.Size(148, 22);
-            this.toolStripMenuItem1_4_6.Text = "查询借阅信息";
-            // 
-            // toolStripMenuItem1_5
-            // 
-            this.toolStripMenuItem1_5.Name = "toolStripMenuItem1_5";
-            this.toolStripMenuItem1_5.Size = new System.Drawing.Size(148, 22);
-            this.toolStripMenuItem1_5.Text = "显示所有信息";
-            // 
-            // toolStripMenuItem1_6
-            // 
-            this.toolStripMenuItem1_6.Name = "toolStripMenuItem1_6";
-            this.toolStripMenuItem1_6.Size = new System.Drawing.Size(148, 22);
-            this.toolStripMenuItem1_6.Text = "重新登录";
-            // 
-            // toolStripMenuItem1_7
-            // 
-            this.toolStripMenuItem1_7.Name = "toolStripMenuItem1_7";
-            this.toolStripMenuItem1_7.Size = new System.Drawing.Size(148, 22);
-            this.toolStripMenuItem1_7.Text = "退出";
             // 
             // tabControl1
             // 
@@ -448,15 +232,19 @@
             // 
             // button1
             // 
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.Location = new System.Drawing.Point(592, 353);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 1;
             this.button1.Text = "确定";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // comboBox1
             // 
+            this.comboBox1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             "显示职员信息",
@@ -468,7 +256,6 @@
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 20);
             this.comboBox1.TabIndex = 0;
-            this.comboBox1.Text = "显示职员信息";
             // 
             // tabPage2
             // 
@@ -559,15 +346,19 @@
             // 
             // button2
             // 
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.Location = new System.Drawing.Point(592, 353);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 4;
             this.button2.Text = "确定";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // comboBox2
             // 
+            this.comboBox2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Items.AddRange(new object[] {
             "显示用户信息",
@@ -579,7 +370,6 @@
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(121, 20);
             this.comboBox2.TabIndex = 3;
-            this.comboBox2.Text = "显示用户信息";
             // 
             // tabPage3
             // 
@@ -663,15 +453,19 @@
             // 
             // button3
             // 
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button3.Location = new System.Drawing.Point(592, 353);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 4;
             this.button3.Text = "确定";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // comboBox3
             // 
+            this.comboBox3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.comboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox3.FormattingEnabled = true;
             this.comboBox3.Items.AddRange(new object[] {
             "显示图书信息",
@@ -683,7 +477,6 @@
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(121, 20);
             this.comboBox3.TabIndex = 3;
-            this.comboBox3.Text = "显示图书信息";
             // 
             // tabPage4
             // 
@@ -781,15 +574,19 @@
             // 
             // button4
             // 
+            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button4.Location = new System.Drawing.Point(592, 353);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 23);
             this.button4.TabIndex = 4;
             this.button4.Text = "确定";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // comboBox4
             // 
+            this.comboBox4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.comboBox4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox4.FormattingEnabled = true;
             this.comboBox4.Items.AddRange(new object[] {
             "显示借阅信息",
@@ -802,7 +599,6 @@
             this.comboBox4.Name = "comboBox4";
             this.comboBox4.Size = new System.Drawing.Size(121, 20);
             this.comboBox4.TabIndex = 3;
-            this.comboBox4.Text = "显示借阅信息";
             // 
             // tabPage5
             // 
@@ -886,15 +682,19 @@
             // 
             // button5
             // 
+            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button5.Location = new System.Drawing.Point(592, 97);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(75, 23);
             this.button5.TabIndex = 4;
             this.button5.Text = "确定";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // comboBox5
             // 
+            this.comboBox5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.comboBox5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox5.FormattingEnabled = true;
             this.comboBox5.Items.AddRange(new object[] {
             "显示个人信息",
@@ -903,7 +703,255 @@
             this.comboBox5.Name = "comboBox5";
             this.comboBox5.Size = new System.Drawing.Size(121, 20);
             this.comboBox5.TabIndex = 3;
-            this.comboBox5.Text = "显示个人信息";
+            // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem1_1,
+            this.toolStripMenuItem1_2,
+            this.toolStripMenuItem1_3,
+            this.toolStripMenuItem1_4,
+            this.toolStripMenuItem1_5,
+            this.toolStripMenuItem1_6,
+            this.toolStripMenuItem1_8,
+            this.toolStripMenuItem1_7});
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(44, 21);
+            this.toolStripMenuItem1.Text = "菜单";
+            // 
+            // toolStripMenuItem1_1
+            // 
+            this.toolStripMenuItem1_1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem1_1_1,
+            this.toolStripMenuItem1_1_2,
+            this.toolStripMenuItem1_1_3,
+            this.toolStripMenuItem1_1_4,
+            this.toolStripMenuItem1_1_5});
+            this.toolStripMenuItem1_1.Name = "toolStripMenuItem1_1";
+            this.toolStripMenuItem1_1.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem1_1.Text = "职员信息";
+            // 
+            // toolStripMenuItem1_1_1
+            // 
+            this.toolStripMenuItem1_1_1.Name = "toolStripMenuItem1_1_1";
+            this.toolStripMenuItem1_1_1.Size = new System.Drawing.Size(148, 22);
+            this.toolStripMenuItem1_1_1.Text = "显示职员信息";
+            this.toolStripMenuItem1_1_1.Click += new System.EventHandler(this.toolStripMenuItem1_1_1_Click);
+            // 
+            // toolStripMenuItem1_1_2
+            // 
+            this.toolStripMenuItem1_1_2.Name = "toolStripMenuItem1_1_2";
+            this.toolStripMenuItem1_1_2.Size = new System.Drawing.Size(148, 22);
+            this.toolStripMenuItem1_1_2.Text = "增加职员信息";
+            this.toolStripMenuItem1_1_2.Click += new System.EventHandler(this.toolStripMenuItem1_1_2_Click);
+            // 
+            // toolStripMenuItem1_1_3
+            // 
+            this.toolStripMenuItem1_1_3.Name = "toolStripMenuItem1_1_3";
+            this.toolStripMenuItem1_1_3.Size = new System.Drawing.Size(148, 22);
+            this.toolStripMenuItem1_1_3.Text = "删除职员信息";
+            this.toolStripMenuItem1_1_3.Click += new System.EventHandler(this.toolStripMenuItem1_1_3_Click);
+            // 
+            // toolStripMenuItem1_1_4
+            // 
+            this.toolStripMenuItem1_1_4.Name = "toolStripMenuItem1_1_4";
+            this.toolStripMenuItem1_1_4.Size = new System.Drawing.Size(148, 22);
+            this.toolStripMenuItem1_1_4.Text = "更新职员信息";
+            this.toolStripMenuItem1_1_4.Click += new System.EventHandler(this.toolStripMenuItem1_1_4_Click);
+            // 
+            // toolStripMenuItem1_1_5
+            // 
+            this.toolStripMenuItem1_1_5.Name = "toolStripMenuItem1_1_5";
+            this.toolStripMenuItem1_1_5.Size = new System.Drawing.Size(148, 22);
+            this.toolStripMenuItem1_1_5.Text = "查询职员信息";
+            this.toolStripMenuItem1_1_5.Click += new System.EventHandler(this.toolStripMenuItem1_1_5_Click);
+            // 
+            // toolStripMenuItem1_2
+            // 
+            this.toolStripMenuItem1_2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem1_2_1,
+            this.toolStripMenuItem1_2_2,
+            this.toolStripMenuItem1_2_3,
+            this.toolStripMenuItem1_2_4,
+            this.toolStripMenuItem1_2_5});
+            this.toolStripMenuItem1_2.Name = "toolStripMenuItem1_2";
+            this.toolStripMenuItem1_2.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem1_2.Text = "用户信息";
+            // 
+            // toolStripMenuItem1_2_1
+            // 
+            this.toolStripMenuItem1_2_1.Name = "toolStripMenuItem1_2_1";
+            this.toolStripMenuItem1_2_1.Size = new System.Drawing.Size(148, 22);
+            this.toolStripMenuItem1_2_1.Text = "显示用户信息";
+            this.toolStripMenuItem1_2_1.Click += new System.EventHandler(this.toolStripMenuItem1_2_1_Click);
+            // 
+            // toolStripMenuItem1_2_2
+            // 
+            this.toolStripMenuItem1_2_2.Name = "toolStripMenuItem1_2_2";
+            this.toolStripMenuItem1_2_2.Size = new System.Drawing.Size(148, 22);
+            this.toolStripMenuItem1_2_2.Text = "增加用户信息";
+            this.toolStripMenuItem1_2_2.Click += new System.EventHandler(this.toolStripMenuItem1_2_2_Click);
+            // 
+            // toolStripMenuItem1_2_3
+            // 
+            this.toolStripMenuItem1_2_3.Name = "toolStripMenuItem1_2_3";
+            this.toolStripMenuItem1_2_3.Size = new System.Drawing.Size(148, 22);
+            this.toolStripMenuItem1_2_3.Text = "删除用户信息";
+            this.toolStripMenuItem1_2_3.Click += new System.EventHandler(this.toolStripMenuItem1_2_3_Click);
+            // 
+            // toolStripMenuItem1_2_4
+            // 
+            this.toolStripMenuItem1_2_4.Name = "toolStripMenuItem1_2_4";
+            this.toolStripMenuItem1_2_4.Size = new System.Drawing.Size(148, 22);
+            this.toolStripMenuItem1_2_4.Text = "更新用户信息";
+            this.toolStripMenuItem1_2_4.Click += new System.EventHandler(this.toolStripMenuItem1_2_4_Click);
+            // 
+            // toolStripMenuItem1_2_5
+            // 
+            this.toolStripMenuItem1_2_5.Name = "toolStripMenuItem1_2_5";
+            this.toolStripMenuItem1_2_5.Size = new System.Drawing.Size(148, 22);
+            this.toolStripMenuItem1_2_5.Text = "查询用户信息";
+            this.toolStripMenuItem1_2_5.Click += new System.EventHandler(this.toolStripMenuItem1_2_5_Click);
+            // 
+            // toolStripMenuItem1_3
+            // 
+            this.toolStripMenuItem1_3.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem1_3_1,
+            this.toolStripMenuItem1_3_2,
+            this.toolStripMenuItem1_3_3,
+            this.toolStripMenuItem1_3_4,
+            this.toolStripMenuItem1_3_5});
+            this.toolStripMenuItem1_3.Name = "toolStripMenuItem1_3";
+            this.toolStripMenuItem1_3.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem1_3.Text = "图书信息";
+            // 
+            // toolStripMenuItem1_3_1
+            // 
+            this.toolStripMenuItem1_3_1.Name = "toolStripMenuItem1_3_1";
+            this.toolStripMenuItem1_3_1.Size = new System.Drawing.Size(148, 22);
+            this.toolStripMenuItem1_3_1.Text = "显示图书信息";
+            this.toolStripMenuItem1_3_1.Click += new System.EventHandler(this.toolStripMenuItem1_3_1_Click);
+            // 
+            // toolStripMenuItem1_3_2
+            // 
+            this.toolStripMenuItem1_3_2.Name = "toolStripMenuItem1_3_2";
+            this.toolStripMenuItem1_3_2.Size = new System.Drawing.Size(148, 22);
+            this.toolStripMenuItem1_3_2.Text = "增加图书信息";
+            this.toolStripMenuItem1_3_2.Click += new System.EventHandler(this.toolStripMenuItem1_3_2_Click);
+            // 
+            // toolStripMenuItem1_3_3
+            // 
+            this.toolStripMenuItem1_3_3.Name = "toolStripMenuItem1_3_3";
+            this.toolStripMenuItem1_3_3.Size = new System.Drawing.Size(148, 22);
+            this.toolStripMenuItem1_3_3.Text = "删除图书信息";
+            this.toolStripMenuItem1_3_3.Click += new System.EventHandler(this.toolStripMenuItem1_3_3_Click);
+            // 
+            // toolStripMenuItem1_3_4
+            // 
+            this.toolStripMenuItem1_3_4.Name = "toolStripMenuItem1_3_4";
+            this.toolStripMenuItem1_3_4.Size = new System.Drawing.Size(148, 22);
+            this.toolStripMenuItem1_3_4.Text = "更新图书信息";
+            this.toolStripMenuItem1_3_4.Click += new System.EventHandler(this.toolStripMenuItem1_3_4_Click);
+            // 
+            // toolStripMenuItem1_3_5
+            // 
+            this.toolStripMenuItem1_3_5.Name = "toolStripMenuItem1_3_5";
+            this.toolStripMenuItem1_3_5.Size = new System.Drawing.Size(148, 22);
+            this.toolStripMenuItem1_3_5.Text = "查询图书信息";
+            this.toolStripMenuItem1_3_5.Click += new System.EventHandler(this.toolStripMenuItem1_3_5_Click);
+            // 
+            // toolStripMenuItem1_4
+            // 
+            this.toolStripMenuItem1_4.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem1_4_1,
+            this.toolStripMenuItem1_4_2,
+            this.toolStripMenuItem1_4_3,
+            this.toolStripMenuItem1_4_4,
+            this.toolStripMenuItem1_4_5,
+            this.toolStripMenuItem1_4_6});
+            this.toolStripMenuItem1_4.Name = "toolStripMenuItem1_4";
+            this.toolStripMenuItem1_4.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem1_4.Text = "借阅信息";
+            // 
+            // toolStripMenuItem1_4_1
+            // 
+            this.toolStripMenuItem1_4_1.Name = "toolStripMenuItem1_4_1";
+            this.toolStripMenuItem1_4_1.Size = new System.Drawing.Size(148, 22);
+            this.toolStripMenuItem1_4_1.Text = "显示借阅信息";
+            this.toolStripMenuItem1_4_1.Click += new System.EventHandler(this.toolStripMenuItem1_4_1_Click);
+            // 
+            // toolStripMenuItem1_4_2
+            // 
+            this.toolStripMenuItem1_4_2.Name = "toolStripMenuItem1_4_2";
+            this.toolStripMenuItem1_4_2.Size = new System.Drawing.Size(148, 22);
+            this.toolStripMenuItem1_4_2.Text = "借阅图书";
+            this.toolStripMenuItem1_4_2.Click += new System.EventHandler(this.toolStripMenuItem1_4_2_Click);
+            // 
+            // toolStripMenuItem1_4_3
+            // 
+            this.toolStripMenuItem1_4_3.Name = "toolStripMenuItem1_4_3";
+            this.toolStripMenuItem1_4_3.Size = new System.Drawing.Size(148, 22);
+            this.toolStripMenuItem1_4_3.Text = "归还图书";
+            this.toolStripMenuItem1_4_3.Click += new System.EventHandler(this.toolStripMenuItem1_4_3_Click);
+            // 
+            // toolStripMenuItem1_4_4
+            // 
+            this.toolStripMenuItem1_4_4.Name = "toolStripMenuItem1_4_4";
+            this.toolStripMenuItem1_4_4.Size = new System.Drawing.Size(148, 22);
+            this.toolStripMenuItem1_4_4.Text = "更新借阅信息";
+            this.toolStripMenuItem1_4_4.Click += new System.EventHandler(this.toolStripMenuItem1_4_4_Click);
+            // 
+            // toolStripMenuItem1_4_5
+            // 
+            this.toolStripMenuItem1_4_5.Name = "toolStripMenuItem1_4_5";
+            this.toolStripMenuItem1_4_5.Size = new System.Drawing.Size(148, 22);
+            this.toolStripMenuItem1_4_5.Text = "延期归还图书";
+            this.toolStripMenuItem1_4_5.Click += new System.EventHandler(this.toolStripMenuItem1_4_5_Click);
+            // 
+            // toolStripMenuItem1_4_6
+            // 
+            this.toolStripMenuItem1_4_6.Name = "toolStripMenuItem1_4_6";
+            this.toolStripMenuItem1_4_6.Size = new System.Drawing.Size(148, 22);
+            this.toolStripMenuItem1_4_6.Text = "查询借阅信息";
+            this.toolStripMenuItem1_4_6.Click += new System.EventHandler(this.toolStripMenuItem1_4_6_Click);
+            // 
+            // toolStripMenuItem1_5
+            // 
+            this.toolStripMenuItem1_5.Name = "toolStripMenuItem1_5";
+            this.toolStripMenuItem1_5.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem1_5.Text = "显示所有信息";
+            this.toolStripMenuItem1_5.Click += new System.EventHandler(this.toolStripMenuItem1_5_Click);
+            // 
+            // toolStripMenuItem1_6
+            // 
+            this.toolStripMenuItem1_6.Name = "toolStripMenuItem1_6";
+            this.toolStripMenuItem1_6.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem1_6.Text = "重新登录";
+            this.toolStripMenuItem1_6.Click += new System.EventHandler(this.toolStripMenuItem1_6_Click);
+            // 
+            // toolStripMenuItem1_7
+            // 
+            this.toolStripMenuItem1_7.Name = "toolStripMenuItem1_7";
+            this.toolStripMenuItem1_7.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem1_7.Text = "退出";
+            this.toolStripMenuItem1_7.Click += new System.EventHandler(this.toolStripMenuItem1_7_Click);
+            // 
+            // menuStrip4
+            // 
+            this.menuStrip4.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem1});
+            this.menuStrip4.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip4.Name = "menuStrip4";
+            this.menuStrip4.Size = new System.Drawing.Size(1056, 25);
+            this.menuStrip4.TabIndex = 4;
+            this.menuStrip4.Text = "menuStrip4";
+            // 
+            // toolStripMenuItem1_8
+            // 
+            this.toolStripMenuItem1_8.Name = "toolStripMenuItem1_8";
+            this.toolStripMenuItem1_8.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem1_8.Text = "注销账号";
+            this.toolStripMenuItem1_8.Click += new System.EventHandler(this.toolStripMenuItem1_8_Click);
             // 
             // AdministratorForm
             // 
@@ -912,10 +960,10 @@
             this.ClientSize = new System.Drawing.Size(1056, 450);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.menuStrip4);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "AdministratorForm";
-            this.Text = "AdministratorForm";
-            this.menuStrip4.ResumeLayout(false);
-            this.menuStrip4.PerformLayout();
+            this.Text = "管理员窗口";
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
@@ -927,42 +975,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).EndInit();
             this.tabPage5.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).EndInit();
+            this.menuStrip4.ResumeLayout(false);
+            this.menuStrip4.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.MenuStrip menuStrip4;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1_1;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1_2;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1_3;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1_4;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1_5;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1_1_1;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1_1_2;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1_1_3;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1_1_4;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1_1_5;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1_2_1;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1_2_2;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1_2_3;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1_2_4;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1_2_5;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1_3_1;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1_3_2;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1_3_3;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1_3_4;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1_3_5;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1_4_1;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1_4_2;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1_4_3;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1_4_4;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1_4_5;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1_4_6;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1_6;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1_7;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
@@ -1027,5 +1047,36 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5_6;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5_7;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5_8;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1_1;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1_1_1;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1_1_2;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1_1_3;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1_1_4;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1_1_5;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1_2;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1_2_1;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1_2_2;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1_2_3;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1_2_4;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1_2_5;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1_3;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1_3_1;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1_3_2;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1_3_3;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1_3_4;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1_3_5;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1_4;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1_4_1;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1_4_2;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1_4_3;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1_4_4;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1_4_5;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1_4_6;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1_5;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1_6;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1_7;
+        private System.Windows.Forms.MenuStrip menuStrip4;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1_8;
     }
 }

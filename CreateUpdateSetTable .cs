@@ -8,23 +8,29 @@ using MySql.Data.MySqlClient;
 
 namespace BookLendingSystem
 {
-    public class CreateUpdateSetTable : NewForm
+    internal class CreateUpdateSetTable : NewForm
     {
         protected List<List<string>> initialData;
         protected List<List<string>> updateData;
-        protected int flag;
 
-        public CreateUpdateSetTable(MySqlConnection dbConnection = null, string tableName = null, List<string> attributes = null, int row = 0, int col = 0, int flag = 0, List<List<string>> initialData = null)
-            : base(dbConnection, tableName, attributes, row, col)
+        public CreateUpdateSetTable() : base()
         {
-            this.flag = flag;
+            this.initialData = null;
+            this.Text = "更新";
+        }
+
+        public CreateUpdateSetTable(MySqlConnection dbConnection = null, string tableName = null, List<string> attributes = null,
+            int row = 0, int col = 0, int flag = 0, List<List<string>> initialData = null)
+            : base(dbConnection, tableName, attributes, row, col, flag)
+        {
             this.initialData = initialData; // 保留初始数据
+            this.Text = "更新";
             button1.Click -= base.button1_Click;
             button1.Click += button1_Click;
             SetData();
         }
 
-        protected void SetData()
+        protected void SetData() // 设置表格
         {
             SetItem();
             // 显示表的内容
@@ -34,10 +40,6 @@ namespace BookLendingSystem
                 {
                     string data = initialData[i][j];
                     dataGridView1.Rows[i].Cells[j].Value = data;
-                    if (Config.Editable(flag, tableName, attributes[j]))
-                        dataGridView1.Columns[j].ReadOnly = false;
-                    else
-                        dataGridView1.Columns[j].ReadOnly = true;
                 }
             }
         }
@@ -62,10 +64,9 @@ namespace BookLendingSystem
 
         protected void UpdateSetTable() // 更新数据库表
         {
-            //MySqlTransaction transaction = null;
+            MySqlTransaction transaction = null;
             try
             {
-                //transaction = this.dbConnection.BeginTransaction();
                 for (int i = 0; i < this.row; i++)
                 {
                     for (int j = 0; j < this.col; j++)
@@ -75,23 +76,29 @@ namespace BookLendingSystem
                         if (attributes[j] == "password")
                             updateData[i][j] = Config.ChangePassword(updateData[i][j]); // 加密
 
-                        string sql = $"update {this.tableName} set {attributes[j]} = @Value where {attributes[0]} = @Id";
-                        Console.WriteLine(sql);
+                        string sql = $"UPDATE {this.tableName} SET {attributes[j]} = @Value WHERE {attributes[0]} = @Id";
 
+                        transaction = dbConnection.BeginTransaction();
                         using (MySqlCommand cmd = new MySqlCommand(sql, dbConnection))
                         {
+                            cmd.Transaction = transaction;
+
                             cmd.Parameters.AddWithValue("@Value", updateData[i][j]);
                             cmd.Parameters.AddWithValue("@Id", initialData[i][0]);
                             cmd.ExecuteNonQuery();
-                            //transaction.Commit();
+                            transaction.Commit();
                         }
                     }
                 }
+                MessageBox.Show($"数据更新成功！");
             }
             catch (Exception ex)
             {
+                if (transaction != null)
+                {
+                    transaction.Rollback();  // 回滚事务
+                }
                 Console.WriteLine("更新数据库时出错: " + ex.Message);
-                //transaction.Rollback();  // 回滚事务
             }
         }
 

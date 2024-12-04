@@ -129,6 +129,7 @@ namespace BookLendingSystem
             // 
             // LoginForm
             // 
+            this.AcceptButton = this.button1;
             this.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;

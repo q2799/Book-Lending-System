@@ -15,7 +15,7 @@ using MySqlX.XDevAPI.Common;
 
 namespace BookLendingSystem
 {
-    public partial class LoginForm : Form
+    internal partial class LoginForm : Form
     {
         public List<List<string>> information = new List<List<string>>() { new List<string>() };
         private MySqlConnection dbConnection; // 数据库连接
@@ -23,7 +23,7 @@ namespace BookLendingSystem
         private string name; // 用户名
         private string password; // 密码
         private int isStaff = 0; // 登录角色标识，0为用户，1为职员
-        private int loginFlag = 0; // 登录标识，0为登录失败，1为用户或职员，2为管理员
+        private int loginFlag = 0; // 登录标识，0为登录失败，1为用户，2为管理员
 
         public LoginForm()
         {
@@ -74,11 +74,11 @@ namespace BookLendingSystem
                 loginFlag = SelectStaffId(name, password);
                 if (loginFlag == 2) // 管理员
                 {
-                    mainWindow = new AdministratorForm();
+                    mainWindow = new AdministratorForm(this, this.information);
                 }
                 else if (loginFlag == 1) // 职员
                 {
-                    mainWindow = new StaffForm();
+                    mainWindow = new AdministratorForm(this, this.information);
                 }
                 else
                 {
@@ -106,7 +106,6 @@ namespace BookLendingSystem
             }
 
             mainWindow.Show();
-
             this.textBox1.Clear();
             this.textBox2.Clear();
             radioButton1.Checked = false;
@@ -130,17 +129,13 @@ namespace BookLendingSystem
                         if (isAdmin == 1)
                         {
                             for (int i = 0; i < reader.FieldCount; i++)
-                            {
                                 this.information[0].Add(reader[i].ToString()); // 记录查询到的用户信息
-                            }
                             return 2;
                         }
                         else if (isAdmin == 0)
                         {
                             for (int i = 0; i < reader.FieldCount; i++)
-                            {
                                 this.information[0].Add(reader[i].ToString()); // 记录查询到的用户信息
-                            }
                             return 1;
                         }
                     }
@@ -162,9 +157,7 @@ namespace BookLendingSystem
                     if (reader.Read())
                     {
                         for (int i = 0; i < reader.FieldCount; i++)
-                        {
                             this.information[0].Add(reader[i].ToString()); // 记录查询到的用户信息
-                        }
                         return 1;
                     }
                 }

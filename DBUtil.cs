@@ -4,7 +4,7 @@ using MySql.Data.MySqlClient;
 
 namespace BookLendingSystem
 {
-    public class DBUtil
+    internal class DBUtil
     {
         // 数据库连接对象
         public static MySqlConnection db = null;
