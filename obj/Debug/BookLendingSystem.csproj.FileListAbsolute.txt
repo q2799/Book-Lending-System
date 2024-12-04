@@ -17,7 +17,6 @@ E:\VS\NET\BookLendingSystem\BookLendingSystem\bin\Debug\MySql.Data.xml
 E:\VS\NET\BookLendingSystem\BookLendingSystem\obj\Debug\BookLend.E069EE09.Up2Date
 E:\VS\NET\BookLendingSystem\BookLendingSystem\obj\Debug\BookLendingSystem.LoginForm.resources
 E:\VS\NET\BookLendingSystem\BookLendingSystem\obj\Debug\BookLendingSystem.AdministratorForm.resources
-E:\VS\NET\BookLendingSystem\BookLendingSystem\obj\Debug\BookLendingSystem.StaffForm.resources
 E:\VS\NET\BookLendingSystem\BookLendingSystem\obj\Debug\BookLendingSystem.UserForm.resources
 E:\VS\NET\BookLendingSystem\BookLendingSystem\obj\Debug\BookLendingSystem.NewForm.resources
 E:\VS\NET\BookLendingSystem\BookLendingSystem\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
