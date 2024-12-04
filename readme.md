@@ -12,7 +12,7 @@ CreateUpdateSetTable.cs：更新功能窗口
 DB.config.txt：数据库连接设置（需修改）
 DBUtil.cs：数据库操作
 Encrypt.cs：密码加密
-GenerateId.cs：Id设置
+GenerateId.cs：Id生成
 LoginForm.cs：登录窗口
 NewForm.cs：四种功能的基类
 OverdueForm.cs：借书延期功能窗口
