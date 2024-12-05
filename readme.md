@@ -4,7 +4,7 @@
  
 文件说明：
  
-data文件夹：book图书表，borrow借阅表，staff职员表，user用户表
+data文件夹：book图书表，borrow借阅表，staff职员表，user用户表。密码统一设定为“123456”。
  
 AdministratorForm.cs：管理员窗口
  
