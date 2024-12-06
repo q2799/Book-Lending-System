@@ -38,9 +38,9 @@ CREATE TABLE `user`  (
 -- ----------------------------
 -- Records of user
 -- ----------------------------
-INSERT INTO `user` VALUES ('1000001', 'user001', '97F3C717DA19B4697AE9884E67AABCE6', '李三', '男', '2021-01-01', 10, 2, 0);
-INSERT INTO `user` VALUES ('1000002', 'user002', '8B63B2922634FFAEAB2019E500F13DD20', '王四', '女', '2021-02-15', 10, 0, 1);
-INSERT INTO `user` VALUES ('1000003', 'user003', 'E16F3B20872B973A50A3C2A1AC996D99', '赵五', '男', '2021-04-10', 10, 0, 0);
+INSERT INTO `user` VALUES ('1000001', 'user1000001', 'E100ADC3949BA59ABBE56E057F200F883E', '李三', '男', '2021-01-01', 10, 2, 0);
+INSERT INTO `user` VALUES ('1000002', 'user1000002', 'E100ADC3949BA59ABBE56E057F200F883E', '王四', '女', '2021-02-15', 10, 0, 1);
+INSERT INTO `user` VALUES ('1000003', 'user1000003', 'E100ADC3949BA59ABBE56E057F200F883E', '赵五', '男', '2021-04-10', 10, 0, 0);
 
 -- ----------------------------
 -- Triggers structure for table user
